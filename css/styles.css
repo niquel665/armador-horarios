@@ -134,43 +134,35 @@ header p { margin: 0; color: var(--muted); }
 @media print {
   @page { margin: 12mm; }
 
-  /* Oculta todo lo que NO sea el horario */
-  header, #controls { 
-    display: none !important; 
+  body > header,
+  main > #controls {
+    display: none !important;
   }
 
-  /* Asegura que el horario quede como única columna */
-  .grid2 {
+  main.wrap.grid2 {
     display: block !important;
+    padding: 0 !important;
+    max-width: none !important;
   }
 
-  /* Quita fondos/efectos para que salga limpio */
   body {
     background: #fff !important;
     color: #000 !important;
   }
 
-  .card, .timetable {
-    box-shadow: none !important;
-    border: 1px solid #ccc !important;
-    background: #fff !important;
-  }
-
-  /* Deja el área imprimible ocupando la hoja */
   #printArea {
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
-  /* Opcional: no imprimir el botón */
-  .printBtn {
-    display: none !important;
+  .printBtn { display: none !important; }
+
+  .card, .timetable {
+    box-shadow: none !important;
+    background: #fff !important;
+    border: 1px solid #ccc !important;
   }
 
-  /* Para que el navegador respete colores de bloques si está habilitado */
-  * {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
