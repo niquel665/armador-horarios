@@ -131,3 +131,41 @@ header p { margin: 0; color: var(--muted); }
   border-radius: 999px;
   border: 1px solid rgba(255,255,255,.22);
 }
+@media print {
+  /* Quita márgenes raros del navegador */
+  @page { margin: 12mm; }
+
+  /* Oculta todo */
+  body * {
+    visibility: hidden !important;
+  }
+
+  /* Muestra SOLO el área del horario */
+  #printArea, #printArea * {
+    visibility: visible !important;
+  }
+
+  /* Ubícalo arriba a la izquierda y que ocupe la hoja */
+  #printArea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Opcional: evita que se impriman fondos oscuros */
+  .timetable {
+    background: white !important;
+    border: 1px solid #ccc !important;
+  }
+
+  /* Opcional: texto más legible en impresión */
+  .block {
+    color: black !important;
+    border-color: #999 !important;
+  }
+}
