@@ -1,6 +1,6 @@
 const DAYS = ["Lun", "Mar", "Mie", "Jue", "Vie"];
 const START = "08:00";
-const END = "20:00";
+const END = "22:00";
 const SLOT_MIN = 30; // grilla cada 30 min
 
 let catalog = [];
