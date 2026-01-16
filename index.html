@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Armador de Horario</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="wrap">
+    <h1>Armador de Horario</h1>
+    <p>Selecciona secciones por NRC o desde listas. Los topes se marcan automáticamente.</p>
+  </header>
+
+  <main class="wrap grid2">
+    <section class="card">
+      <h2>Agregar cursos</h2>
+
+      <label class="label">Buscar por NRC</label>
+      <div class="row">
+        <input id="nrcInput" class="input" placeholder="Ej: 12345" />
+        <button id="addByNrc" class="btn">Agregar</button>
+      </div>
+
+      <div class="divider"></div>
+
+      <label class="label">Seleccionar desde listas</label>
+      <label class="small">Asignatura</label>
+      <select id="asigSelect" class="select"></select>
+
+      <label class="small">Sección / NRC</label>
+      <select id="secSelect" class="select"></select>
+
+      <button id="addBySelect" class="btn full">Agregar selección</button>
+
+      <div class="divider"></div>
+
+      <h3>Seleccionados</h3>
+      <ul id="selectedList" class="list"></ul>
+
+      <button id="clearAll" class="btn ghost full">Limpiar todo</button>
+    </section>
+
+    <section class="card">
+      <h2>Horario</h2>
+      <div class="legend">
+        <span class="pill ok">Sin tope</span>
+        <span class="pill conflict">Tope</span>
+      </div>
+
+      <div id="timetable" class="timetable">
+        <div class="tt-header"></div>
+        <div class="tt-grid" id="ttGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
