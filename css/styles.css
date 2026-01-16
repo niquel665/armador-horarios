@@ -132,40 +132,45 @@ header p { margin: 0; color: var(--muted); }
   border: 1px solid rgba(255,255,255,.22);
 }
 @media print {
-  /* Quita márgenes raros del navegador */
   @page { margin: 12mm; }
 
-  /* Oculta todo */
-  body * {
-    visibility: hidden !important;
+  /* Oculta todo lo que NO sea el horario */
+  header, #controls { 
+    display: none !important; 
   }
 
-  /* Muestra SOLO el área del horario */
-  #printArea, #printArea * {
-    visibility: visible !important;
+  /* Asegura que el horario quede como única columna */
+  .grid2 {
+    display: block !important;
   }
 
-  /* Ubícalo arriba a la izquierda y que ocupe la hoja */
-  #printArea {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100% !important;
-    border: none !important;
+  /* Quita fondos/efectos para que salga limpio */
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .card, .timetable {
     box-shadow: none !important;
-    background: white !important;
-    color: black !important;
-  }
-
-  /* Opcional: evita que se impriman fondos oscuros */
-  .timetable {
-    background: white !important;
     border: 1px solid #ccc !important;
+    background: #fff !important;
   }
 
-  /* Opcional: texto más legible en impresión */
-  .block {
-    color: black !important;
-    border-color: #999 !important;
+  /* Deja el área imprimible ocupando la hoja */
+  #printArea {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Opcional: no imprimir el botón */
+  .printBtn {
+    display: none !important;
+  }
+
+  /* Para que el navegador respete colores de bloques si está habilitado */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 }
