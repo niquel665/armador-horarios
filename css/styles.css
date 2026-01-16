@@ -166,3 +166,49 @@ header p { margin: 0; color: var(--muted); }
 
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+@media print {
+
+  /* HORAS (columna izquierda) */
+  .cell.time {
+    color: #000 !important;
+    font-weight: 600 !important;
+  }
+
+  /* DÍAS (Lun, Mar, etc.) */
+  .tt-grid > .cell {
+    color: #000 !important;
+  }
+
+  /* LÍNEAS DE LA GRILLA */
+  .cell {
+    border-top: 1px solid #666 !important;
+    border-right: 1px solid #666 !important;
+  }
+
+  /* CONTORNO GENERAL DEL HORARIO */
+  .timetable {
+    border: 2px solid #333 !important;
+  }
+
+  /* BLOQUES DE RAMOS */
+  .block {
+    background: #e0e0e0 !important;   /* gris claro */
+    color: #000 !important;
+    border: 1px solid #333 !important;
+  }
+
+  /* BLOQUES CON TOPE */
+  .block.conflict {
+    background: #cfcfcf !important;
+    border: 2px solid #000 !important;
+  }
+
+  /* Texto dentro de bloques */
+  .block strong {
+    color: #000 !important;
+  }
+
+  .block .meta {
+    color: #111 !important;
+  }
+}
