@@ -134,77 +134,85 @@ header p { margin: 0; color: var(--muted); }
 @media print {
   @page { margin: 12mm; }
 
+  /* Ocultar todo lo que no sea el horario */
   body > header,
   main > #controls {
     display: none !important;
   }
 
+  /* Dejar el layout en una sola columna */
   main.wrap.grid2 {
     display: block !important;
     padding: 0 !important;
     max-width: none !important;
   }
 
+  /* Fondo y texto para impresión */
   body {
     background: #fff !important;
     color: #000 !important;
   }
 
+  /* Asegurar contraste dentro del área imprimible */
+  #printArea,
+  #printArea * {
+    color: #000 !important;
+  }
+
+  /* Ajustes del contenedor */
   #printArea {
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
-  .printBtn { display: none !important; }
+  /* No imprimir el botón */
+  .printBtn {
+    display: none !important;
+  }
 
-  .card, .timetable {
+  /* Cards y contenedor del horario sin sombras y con borde más fuerte */
+  .card,
+  .timetable {
     box-shadow: none !important;
     background: #fff !important;
-    border: 1px solid #ccc !important;
+    border: 2px solid #000 !important;
   }
 
-  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-}
-@media print {
-  /* Asegura alto contraste en todo el horario */
-  #printArea, #printArea * {
-    color: #000 !important;
-  }
-
-  /* La grilla y sus bordes (más oscuros) */
+  /* GRILLA: bordes negros para que se note SI O SI */
   #ttGrid .cell {
-    border-top: 1px solid #444 !important;
-    border-right: 1px solid #444 !important;
+    border-top: 1px solid #000 !important;
+    border-right: 1px solid #000 !important;
     color: #000 !important;
   }
 
-  /* Horas (08:00, 09:00, etc.) */
+  /* Horas (columna izquierda) más visibles */
   #ttGrid .cell.time {
-    color: #000 !important;
-    font-weight: 700 !important;
-  }
-
-  /* Encabezados de días (Lun, Mar...) */
-  /* En tu grilla no tienen clase especial, así que reforzamos por posición:
-     primera fila (después de la celda vacía) */
-  #ttGrid .cell:nth-child(-n+6) {
-    font-weight: 700 !important;
-    color: #000 !important;
-  }
-
-  /* Fondo blanco real para que no “aplane” tonos */
-  #printArea .timetable,
-  #printArea .tt-grid,
-  #printArea .card {
-    background: #fff !important;
-  }
-
-  /* (Opcional) Subir tamaño de fuente de horas */
-  #ttGrid .cell.time {
+    font-weight: 800 !important;
     font-size: 13px !important;
+    color: #000 !important;
   }
 
-  /* Asegura que el navegador imprima colores si está activado */
-  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  /* Encabezado de días (primera fila de la grilla) */
+  #ttGrid .cell:nth-child(-n+6) {
+    font-weight: 800 !important;
+    color: #000 !important;
+  }
+
+  /* Bloques: fondo sólido legible en impresora */
+  .block {
+    background: #e6e6e6 !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+  }
+  .block.conflict {
+    background: #cfcfcf !important;
+    border: 2px solid #000 !important;
+  }
+
+  /* Pedirle al navegador que respete colores */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }
