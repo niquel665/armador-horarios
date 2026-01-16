@@ -167,48 +167,44 @@ header p { margin: 0; color: var(--muted); }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
 @media print {
-
-  /* HORAS (columna izquierda) */
-  .cell.time {
-    color: #000 !important;
-    font-weight: 600 !important;
-  }
-
-  /* DÍAS (Lun, Mar, etc.) */
-  .tt-grid > .cell {
+  /* Asegura alto contraste en todo el horario */
+  #printArea, #printArea * {
     color: #000 !important;
   }
 
-  /* LÍNEAS DE LA GRILLA */
-  .cell {
-    border-top: 1px solid #666 !important;
-    border-right: 1px solid #666 !important;
-  }
-
-  /* CONTORNO GENERAL DEL HORARIO */
-  .timetable {
-    border: 2px solid #333 !important;
-  }
-
-  /* BLOQUES DE RAMOS */
-  .block {
-    background: #e0e0e0 !important;   /* gris claro */
-    color: #000 !important;
-    border: 1px solid #333 !important;
-  }
-
-  /* BLOQUES CON TOPE */
-  .block.conflict {
-    background: #cfcfcf !important;
-    border: 2px solid #000 !important;
-  }
-
-  /* Texto dentro de bloques */
-  .block strong {
+  /* La grilla y sus bordes (más oscuros) */
+  #ttGrid .cell {
+    border-top: 1px solid #444 !important;
+    border-right: 1px solid #444 !important;
     color: #000 !important;
   }
 
-  .block .meta {
-    color: #111 !important;
+  /* Horas (08:00, 09:00, etc.) */
+  #ttGrid .cell.time {
+    color: #000 !important;
+    font-weight: 700 !important;
   }
+
+  /* Encabezados de días (Lun, Mar...) */
+  /* En tu grilla no tienen clase especial, así que reforzamos por posición:
+     primera fila (después de la celda vacía) */
+  #ttGrid .cell:nth-child(-n+6) {
+    font-weight: 700 !important;
+    color: #000 !important;
+  }
+
+  /* Fondo blanco real para que no “aplane” tonos */
+  #printArea .timetable,
+  #printArea .tt-grid,
+  #printArea .card {
+    background: #fff !important;
+  }
+
+  /* (Opcional) Subir tamaño de fuente de horas */
+  #ttGrid .cell.time {
+    font-size: 13px !important;
+  }
+
+  /* Asegura que el navegador imprima colores si está activado */
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
