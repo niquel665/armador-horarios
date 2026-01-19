@@ -174,15 +174,41 @@ function renderBlocks() {
 
   const startMin = toMin(START);
   const endMin = toMin(END);
-  const rowH = 40;
-  const colW = ttGrid.clientWidth / 6; // 6 columnas (hora + 5 días)
-  const dayW = colW; // aprox
-  const timeColW = colW;
+
+  // --- Medir dimensiones reales de la grilla (sin aproximar) ---
+  // Tu grilla se construye así:
+  //  - 1 fila de encabezado (6 celdas: "" + Lun..Vie)
+  //  - luego filas de horario: cada fila tiene 1 celda time + 5 celdas día
+  const headerCellsCount = 6;
+
+  const allCells = ttGrid.querySelectorAll(".cell");
+  const timeCells = ttGrid.querySelectorAll(".cell.time");
+  const dayCells = ttGrid.querySelectorAll(".cell:not(.time)");
+
+  // Celda de horas (columna izquierda) de la primera fila de horario (ej 08:00)
+  const firstTimeCell = timeCells[0] || null;
+
+  // Primera celda "día" de la primera fila de horario (columna Lun en fila 08:00)
+  // dayCells contiene primero las 5 del encabezado (Lun..Vie), luego las del cuerpo.
+  const firstBodyDayCell = dayCells[5] || null;
+
+  // Alto de fila real (se adapta si en print cambias grid-auto-rows)
+  const rowH = (firstBodyDayCell?.getBoundingClientRect().height)
+            || (allCells[0]?.getBoundingClientRect().height)
+            || 40;
+
+  // Ancho real de columna "hora" y de una columna día
+  const timeColW = (firstTimeCell?.getBoundingClientRect().width) || 64;
+  const dayW = (firstBodyDayCell?.getBoundingClientRect().width)
+            || ((ttGrid.clientWidth - timeColW) / 5);
+
+  // Padding interno para que el bloque no toque las líneas
+  const pad = 6;
 
   const blocks = markConflicts(computeFlatBlocks());
 
   for (const b of blocks) {
-    // solo dibuja lo que cae dentro del rango visible
+    // Solo dibuja lo que cae dentro del rango visible
     const topMin = clamp(b.inicioMin, startMin, endMin);
     const botMin = clamp(b.finMin, startMin, endMin);
     if (botMin <= startMin || topMin >= endMin) continue;
@@ -190,12 +216,14 @@ function renderBlocks() {
     const dayIndex = DAYS.indexOf(b.dia);
     if (dayIndex === -1) continue;
 
-    // +1 fila por encabezados
-    const topPx = rowH + ((topMin - startMin) / SLOT_MIN) * rowH;
+    // +1 fila por encabezado
+    const topBase = rowH;
+
+    const topPx = topBase + ((topMin - startMin) / SLOT_MIN) * rowH;
     const heightPx = ((botMin - topMin) / SLOT_MIN) * rowH;
 
-    const leftPx = timeColW + dayIndex * dayW + 6; // padding visual
-    const widthPx = dayW - 12;
+    const leftPx = timeColW + dayIndex * dayW + pad;
+    const widthPx = dayW - pad * 2;
 
     const div = document.createElement("div");
     div.className = `block ${b.conflict ? "conflict" : "ok"}`;
@@ -214,6 +242,7 @@ function renderBlocks() {
     ttGrid.appendChild(div);
   }
 }
+
 
 function escapeHtml(s) {
   return String(s)
