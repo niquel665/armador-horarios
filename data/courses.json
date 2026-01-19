@@ -865,6 +865,11 @@
         "dia": "Lun",
         "inicio": "08:00",
         "fin": "10:50"
+      },
+      {
+        "dia": "Mie",
+        "inicio": "15:30",
+        "fin": "16:50"
       }
     ],
     "jornada": "Diurno"
