@@ -3,6 +3,7 @@ const START = "08:00";
 const END = "22:00";
 const SLOT_MIN = 30; // grilla cada 30 min
 
+let allCourses = [];
 let catalog = [];
 let selected = [];
 
@@ -14,6 +15,18 @@ const addBySelectBtn = document.getElementById("addBySelect");
 const selectedList = document.getElementById("selectedList");
 const ttGrid = document.getElementById("ttGrid");
 const clearAllBtn = document.getElementById("clearAll");
+const jornadaSelect = document.getElementById("jornadaSelect");
+
+function applyJornadaFilter() {
+  const jornada = jornadaSelect.value;
+  catalog = allCourses.filter(c => (c.jornada || "Diurno") === jornada);
+
+  // Seguridad: no mezclar jornadas
+  selected = [];
+  buildSelectors();
+  renderAll();
+}
+
 
 function toMin(hhmm) {
   const [h, m] = hhmm.split(":").map(Number);
@@ -33,11 +46,24 @@ function overlaps(aStart, aEnd, bStart, bEnd) {
 }
 
 async function loadCatalog() {
-  const res = await fetch("data/courses.json");
-  catalog = await res.json();
+  const res = await fetch("courses.json");
+  allCourses = await res.json();
+
+  // default
+  catalog = allCourses.filter(c => (c.jornada || "Diurno") === "Diurno");
+
   buildSelectors();
   buildGrid();
   renderAll();
+
+  jornadaSelect.addEventListener("change", () => {
+    const ok = confirm("Cambiar jornada limpiará el horario actual. ¿Continuar?");
+    if (!ok) {
+      jornadaSelect.value = (jornadaSelect.value === "Diurno") ? "Vespertino" : "Diurno";
+      return;
+    }
+    applyJornadaFilter();
+  });
 }
 
 function buildSelectors() {
@@ -255,7 +281,11 @@ function escapeHtml(s) {
 
 function addSection(sec) {
   if (!sec) return;
-  if (selected.some(s => s.nrc === sec.nrc)) return; // evita duplicados por NRC
+  if ((sec.jornada || "Diurno") !== jornadaSelect.value) {
+    alert("Esa sección es de otra jornada.");
+    return;
+  }
+  if (selected.some(s => s.nrc === sec.nrc)) return;
   selected.push(sec);
   renderAll();
 }

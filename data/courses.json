@@ -11,21 +11,8 @@
         "inicio": "11:00",
         "fin": "13:10"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Historia del Derecho",
-    "nrc": "21638",
-    "seccion": "1",
-    "profesor": "Fernando Pérez Godoy",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -39,21 +26,8 @@
         "inicio": "11:00",
         "fin": "13:10"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Historia y Evolución  de las Instituciones Civiles",
-    "nrc": "21644",
-    "seccion": "1",
-    "profesor": "Oscar Olivares Jatib",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -67,21 +41,8 @@
         "inicio": "08:41",
         "fin": "10:50"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Derecho Político",
-    "nrc": "24650",
-    "seccion": "1",
-    "profesor": "Andrea Íñiguez Manzo",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "08:41",
-        "fin": "10:50"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -95,7 +56,8 @@
         "inicio": "14:00",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -109,21 +71,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Introducción al Derecho",
-    "nrc": "21659",
-    "seccion": "1",
-    "profesor": "José Ignacio Núñez Leiva",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -137,7 +86,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -151,21 +101,8 @@
         "inicio": "11:00",
         "fin": "13:10"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Historia del Derecho",
-    "nrc": "21640",
-    "seccion": "3",
-    "profesor": "Fernando Pérez Godoy",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -179,21 +116,8 @@
         "inicio": "08:41",
         "fin": "10:50"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Historia y Evolución  de las Instituciones Civiles",
-    "nrc": "21646",
-    "seccion": "3",
-    "profesor": "Oscar Olivares Jatib",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "08:41",
-        "fin": "10:50"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -207,7 +131,8 @@
         "inicio": "11:00",
         "fin": "13:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -221,7 +146,8 @@
         "inicio": "11:00",
         "fin": "13:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -235,7 +161,8 @@
         "inicio": "14:00",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -249,21 +176,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Introducción al Derecho",
-    "nrc": "21661",
-    "seccion": "3",
-    "profesor": "José Ignacio Núñez Leiva",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -277,7 +191,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -291,21 +206,8 @@
         "inicio": "08:41",
         "fin": "10:50"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Historia del Derecho",
-    "nrc": "21642",
-    "seccion": "5",
-    "profesor": "Óscar Dávila Campusano",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "08:41",
-        "fin": "10:50"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -319,21 +221,8 @@
         "inicio": "08:41",
         "fin": "10:50"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Historia y Evolución  de las Instituciones Civiles",
-    "nrc": "21648",
-    "seccion": "5",
-    "profesor": "Oscar Olivares Jatib",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "08:41",
-        "fin": "10:50"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -347,21 +236,8 @@
         "inicio": "11:00",
         "fin": "13:10"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Derecho Político",
-    "nrc": "21654",
-    "seccion": "5",
-    "profesor": "Andrea Íñiguez Manzo",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -380,7 +256,8 @@
         "inicio": "08:00",
         "fin": "08:40"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -394,21 +271,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Introducción al Derecho",
-    "nrc": "21663",
-    "seccion": "5",
-    "profesor": "José Ignacio Núñez Leiva",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "1",
@@ -422,7 +286,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -441,7 +306,8 @@
         "inicio": "11:00",
         "fin": "13:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -455,7 +321,8 @@
         "inicio": "08:00",
         "fin": "10:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -469,7 +336,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -483,7 +351,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -497,7 +366,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -511,7 +381,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -530,7 +401,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -544,7 +416,8 @@
         "inicio": "08:00",
         "fin": "10:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -558,7 +431,8 @@
         "inicio": "14:00",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -577,7 +451,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -591,7 +466,8 @@
         "inicio": "15:30",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -605,7 +481,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -623,13 +500,14 @@
         "dia": "Lun",
         "inicio": "14:00",
         "fin": "15:20"
-      },      
+      },
       {
         "dia": "Mar",
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -648,7 +526,8 @@
         "inicio": "11:00",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -662,7 +541,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -676,7 +556,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -690,7 +571,8 @@
         "inicio": "15:30",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -704,7 +586,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -723,7 +606,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -742,7 +626,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -756,7 +641,8 @@
         "inicio": "14:00",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -770,7 +656,8 @@
         "inicio": "11:00",
         "fin": "13:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -784,7 +671,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -803,7 +691,8 @@
         "inicio": "14:00",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -822,7 +711,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -836,7 +726,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -855,7 +746,8 @@
         "inicio": "17:00",
         "fin": "19:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -869,7 +761,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -888,7 +781,8 @@
         "inicio": "15:30",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -907,7 +801,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -921,7 +816,8 @@
         "inicio": "14:00",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -935,7 +831,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -954,7 +851,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -965,15 +863,11 @@
     "horarios": [
       {
         "dia": "Lun",
-        "inicio": "14:00",
-        "fin": "15:20"
-      },
-      {
-        "dia": "Mie",
-        "inicio": "15:30",
-        "fin": "16:50"
+        "inicio": "08:00",
+        "fin": "10:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -987,7 +881,8 @@
         "inicio": "08:00",
         "fin": "10:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1001,7 +896,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1020,7 +916,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1034,7 +931,8 @@
         "inicio": "08:00",
         "fin": "09:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1053,7 +951,8 @@
         "inicio": "11:00",
         "fin": "13:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1067,7 +966,8 @@
         "inicio": "08:00",
         "fin": "10:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1081,7 +981,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1095,7 +996,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1114,7 +1016,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1128,7 +1031,8 @@
         "inicio": "08:00",
         "fin": "09:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1142,7 +1046,8 @@
         "inicio": "08:00",
         "fin": "09:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1161,7 +1066,8 @@
         "inicio": "17:00",
         "fin": "19:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1180,7 +1086,8 @@
         "inicio": "11:00",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1199,7 +1106,8 @@
         "inicio": "17:00",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1213,7 +1121,8 @@
         "inicio": "08:41",
         "fin": "13:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1227,7 +1136,8 @@
         "inicio": "11:00",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1246,7 +1156,8 @@
         "inicio": "17:00",
         "fin": "19:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1265,7 +1176,8 @@
         "inicio": "08:00",
         "fin": "09:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1284,7 +1196,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1298,7 +1211,8 @@
         "inicio": "08:41",
         "fin": "13:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1312,7 +1226,8 @@
         "inicio": "14:00",
         "fin": "15:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1326,7 +1241,8 @@
         "inicio": "08:41",
         "fin": "13:10"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "10",
@@ -1360,7 +1276,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -1374,7 +1291,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "3",
@@ -1388,7 +1306,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -1402,7 +1321,8 @@
         "inicio": "08:00",
         "fin": "10:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "5",
@@ -1416,7 +1336,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1430,7 +1351,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "7",
@@ -1444,7 +1366,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1458,7 +1381,8 @@
         "inicio": "15:30",
         "fin": "18:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "9",
@@ -1472,7 +1396,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "4",
@@ -1491,7 +1416,8 @@
         "inicio": "08:00",
         "fin": "09:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "2",
@@ -1505,7 +1431,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "4",
@@ -1519,7 +1446,8 @@
         "inicio": "09:30",
         "fin": "12:20"
       }
-    ]
+    ],
+    "jornada": "Diurno"
   },
   {
     "nivel": "4",
@@ -1533,6 +1461,23 @@
         "inicio": "14:00",
         "fin": "16:50"
       }
-    ]
+    ],
+    "jornada": "Diurno"
+  },
+  {
+    "nivel": "11",
+    "asignatura": "PRUEBA VESPERTINO",
+    "nrc": "999999",
+    "seccion": "1",
+    "profesor": "PROFESOR VESPER",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "14:00",
+        "fin": "16:50"
+      }
+    ],
+    "jornada": "Vespertino"
   }
+
 ]
