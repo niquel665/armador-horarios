@@ -26,8 +26,18 @@ const alRut = document.getElementById("alRut");
 const alCorreo = document.getElementById("alCorreo");
 const alJornada = document.getElementById("alJornada");
 
+
 // Pega aquí tu URL /exec del Web App (sin /u/1/)
 const ALUMNOS_API_URL = "https://script.google.com/macros/s/AKfycby61QFbCuOgOmQr6_mPG-wZd8cpwcOAdbI6Bd1PUHNUtL-eZseKohzYeKr6RX2Nw6EGiw/exec";
+
+function clearAlumnoUI() {
+  if (rutInput) rutInput.value = "";
+  if (alumnoBox) alumnoBox.style.display = "none";
+  if (alNombre) alNombre.textContent = "";
+  if (alRut) alRut.textContent = "";
+  if (alCorreo) alCorreo.textContent = "";
+  if (alJornada) alJornada.textContent = "";
+}
 
 
 function applyJornadaFilter() {
@@ -324,6 +334,7 @@ addBySelectBtn.addEventListener("click", () => {
 clearAllBtn.addEventListener("click", () => {
   selected = [];
   renderAll();
+  clearAlumnoUI(); // 👈 agrega esto
 });
 
 window.addEventListener("resize", () => {
