@@ -46,7 +46,7 @@ function overlaps(aStart, aEnd, bStart, bEnd) {
 }
 
 async function loadCatalog() {
-  const res = await fetch("data/courses.json?v=2", { cache: "no-store" });
+  const res = await fetch("data/courses.json?v=3", { cache: "no-store" });
 
   allCourses = await res.json();
 
