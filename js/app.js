@@ -384,3 +384,44 @@ async function buscarAlumno() {
 
 buscarRutBtn.addEventListener("click", buscarAlumno);
 
+const genPdfBtn = document.getElementById("genPdfBtn");
+
+async function generarPdf() {
+  const rut = normRutWeb(rutInput.value);
+  if (!rut) return alert("Ingresa RUT del alumno.");
+  if (selected.length === 0) return alert("No hay cursos seleccionados.");
+
+  // Solo lo que necesita el PDF
+  const cursos = selected.map(s => ({
+    nrc: s.nrc,
+    asignatura: s.asignatura,
+    seccion: s.seccion,
+    profesor: s.profesor
+  }));
+
+  genPdfBtn.disabled = true;
+  genPdfBtn.textContent = "Generando...";
+
+  try {
+    const res = await fetch(ALUMNOS_API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "generatePdf", rut, cursos })
+    });
+
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || "Error generando PDF");
+
+    window.open(data.pdfUrl, "_blank");
+  } catch (err) {
+    console.error(err);
+    alert("No se pudo generar el PDF: " + err.message);
+  } finally {
+    genPdfBtn.disabled = false;
+    genPdfBtn.textContent = "Generar PDF formulario";
+  }
+}
+
+genPdfBtn.addEventListener("click", generarPdf);
+
+
