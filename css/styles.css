@@ -229,3 +229,11 @@ header p { margin: 0; color: var(--muted); }
     print-color-adjust: exact;
   }
 }
+
+.alumnoBox{
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+}
+.muted{ color: var(--muted); font-size: 13px; }

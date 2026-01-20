@@ -16,6 +16,23 @@
     <section class="card" id="controls">
       <h2>Agregar cursos</h2>
 
+      <div class="divider"></div>
+
+      <h3>Alumno</h3>
+      <label class="small">RUT</label>
+      <div class="row">
+         <input id="rutInput" class="input" placeholder="Ej: 20713532-1" />
+         <button id="buscarRutBtn" class="btn">Buscar</button>
+      </div>
+
+    <div id="alumnoBox" class="alumnoBox" style="display:none; margin-top:10px;">
+      <div><strong id="alNombre"></strong></div>
+      <div class="muted" id="alRut"></div>
+      <div class="muted" id="alCorreo"></div>
+      <div class="muted" id="alJornada"></div>
+    </div>
+
+
       <label class="label">Buscar por NRC</label>
       <div class="row">
         <input id="nrcInput" class="input" placeholder="Ej: 12345" />

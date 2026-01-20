@@ -17,6 +17,19 @@ const ttGrid = document.getElementById("ttGrid");
 const clearAllBtn = document.getElementById("clearAll");
 const jornadaSelect = document.getElementById("jornadaSelect");
 
+const rutInput = document.getElementById("rutInput");
+const buscarRutBtn = document.getElementById("buscarRutBtn");
+
+const alumnoBox = document.getElementById("alumnoBox");
+const alNombre = document.getElementById("alNombre");
+const alRut = document.getElementById("alRut");
+const alCorreo = document.getElementById("alCorreo");
+const alJornada = document.getElementById("alJornada");
+
+// Pega aquí tu URL /exec del Web App (sin /u/1/)
+const ALUMNOS_API_URL = "https://script.google.com/macros/s/AKfycby61QFbCuOgOmQr6_mPG-wZd8cpwcOAdbI6Bd1PUHNUtL-eZseKohzYeKr6RX2Nw6EGiw/exec";
+
+
 function applyJornadaFilter() {
   const jornada = jornadaSelect.value;
   catalog = allCourses.filter(c => (c.jornada || "Diurno") === jornada);
@@ -319,3 +332,44 @@ window.addEventListener("resize", () => {
 });
 
 loadCatalog();
+
+function normRutWeb(rut) {
+  return String(rut || "")
+    .trim()
+    .replace(/\./g, "")
+    .replace(/\s+/g, "")
+    .toUpperCase();
+}
+
+async function buscarAlumno() {
+  const rut = normRutWeb(rutInput.value);
+  if (!rut) return alert("Escribe un RUT.");
+
+  try {
+    // GET simple (rápido para probar)
+    const url = `${ALUMNOS_API_URL}?rut=${encodeURIComponent(rut)}`;
+    const res = await fetch(url, { cache: "no-store" });
+    const data = await res.json();
+
+    if (!data.ok) throw new Error(data.error || "Error desconocido");
+
+    if (!data.alumno) {
+      alumnoBox.style.display = "none";
+      alert("Alumno no encontrado.");
+      return;
+    }
+
+    alNombre.textContent = data.alumno.nombre_completo || "(sin nombre)";
+    alRut.textContent = `RUT: ${data.alumno.rut}`;
+    alCorreo.textContent = `Correo: ${data.alumno.correo || "-"}`;
+    alJornada.textContent = `Jornada: ${data.alumno.jornada || "-"}`;
+    alumnoBox.style.display = "block";
+
+  } catch (err) {
+    console.error(err);
+    alert("Error buscando alumno: " + err.message);
+  }
+}
+
+buscarRutBtn.addEventListener("click", buscarAlumno);
+
