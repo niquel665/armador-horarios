@@ -1,1488 +1,2209 @@
 [
   {
-    "nivel": "1",
-    "asignatura": "Historia del Derecho",
-    "nrc": "21637",
+    "id": "202620-13029",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "ARGUMENTACIÓN JURÍDICA Y DEBATE",
+    "nrc": "13029",
+    "seccion": "1",
+    "profesor": "Jorge Ríos Vásquez",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "09:30",
+        "fin": "10:50",
+        "edificio": "E",
+        "sala": "332"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 1
+  },
+  {
+    "id": "202620-13005",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "HISTORIA INSTITUCIONAL DE CHILE",
+    "nrc": "13005",
+    "seccion": "1",
+    "profesor": "Fernando Pérez Godoy",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "11:00",
+        "fin": "13:10",
+        "edificio": "E",
+        "sala": "332"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 1
+  },
+  {
+    "id": "202620-13017",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "TEORÍA DE LA LEY Y LAS PERSONAS",
+    "nrc": "13017",
+    "seccion": "1",
+    "profesor": "Oscar Olivares Jatib",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "11:00",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "332"
+      },
+      {
+        "dia": "Mar",
+        "inicio": "14:00",
+        "fin": "15:20",
+        "edificio": "E",
+        "sala": "332"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 1
+  },
+  {
+    "id": "202620-13011",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "FUNDAMENTOS FILOSÓFICOS DEL DERECHO",
+    "nrc": "13011",
     "seccion": "1",
     "profesor": "Fernando Pérez Godoy",
     "horarios": [
       {
         "dia": "Mie",
         "inicio": "11:00",
-        "fin": "13:10"
+        "fin": "13:10",
+        "edificio": "E",
+        "sala": "332"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 1
   },
   {
-    "nivel": "1",
-    "asignatura": "Historia y Evolución  de las Instituciones Civiles",
-    "nrc": "21643",
+    "id": "202620-13023",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "TEORÍA CONSTITUCIONAL",
+    "nrc": "13023",
     "seccion": "1",
+    "profesor": "Andrea Íñiguez",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "332"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 1
+  },
+  {
+    "id": "202620-22465",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "FG: ELECTIVO DE COMUNICACIÓN - COMUNICACIÓN Y ARGUMENTACIÓN",
+    "nrc": "22465",
+    "seccion": "1",
+    "profesor": "No informado",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "15:30",
+        "fin": "18:20",
+        "edificio": "F",
+        "sala": "227"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 1,
+    "observaciones": "El PDF no informa docente."
+  },
+  {
+    "id": "202620-13019",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "TEORÍA DE LA LEY Y LAS PERSONAS",
+    "nrc": "13019",
+    "seccion": "2",
     "profesor": "Oscar Olivares Jatib",
     "horarios": [
       {
         "dia": "Mar",
-        "inicio": "11:00",
-        "fin": "13:10"
+        "inicio": "08:00",
+        "fin": "10:50",
+        "edificio": "E",
+        "sala": "332"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 2
   },
   {
-    "nivel": "1",
-    "asignatura": "Derecho Político",
-    "nrc": "21649",
-    "seccion": "1",
-    "profesor": "Andrea Íñiguez Manzo",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "08:41",
-        "fin": "10:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Introducción a la Economía",
-    "nrc": "21655",
-    "seccion": "1",
-    "profesor": "Werner Kandora Gutierrez",
+    "id": "202620-13007",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "HISTORIA INSTITUCIONAL DE CHILE",
+    "nrc": "13007",
+    "seccion": "2",
+    "profesor": "Fernando Pérez Godoy",
     "horarios": [
       {
         "dia": "Mar",
-        "inicio": "14:00",
-        "fin": "16:50"
+        "inicio": "11:00",
+        "fin": "13:10",
+        "edificio": "E",
+        "sala": "333"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 2
   },
   {
+    "id": "202620-23009",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
     "nivel": "1",
-    "asignatura": "Introducción al Derecho",
-    "nrc": "21658",
+    "asignatura": "DERECHO POLÍTICO",
+    "nrc": "23009",
     "seccion": "1",
-    "profesor": "José Ignacio Núñez Leiva",
+    "profesor": "Pamela Noseda",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "11:00",
+        "fin": "13:10",
+        "edificio": "E",
+        "sala": "331"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": true,
+    "fuente_pagina": 2
+  },
+  {
+    "id": "202620-13013",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "FUNDAMENTOS FILOSÓFICOS DEL DERECHO",
+    "nrc": "13013",
+    "seccion": "2",
+    "profesor": "Fernando Pérez Godoy",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "11:00",
+        "fin": "13:10",
+        "edificio": "E",
+        "sala": "332"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 2
+  },
+  {
+    "id": "202620-13026",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "TEORÍA CONSTITUCIONAL",
+    "nrc": "13026",
+    "seccion": "2",
+    "profesor": "Andrea Íñiguez",
     "horarios": [
       {
         "dia": "Lun",
-        "inicio": "15:30",
-        "fin": "18:20"
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "332"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 2
   },
   {
-    "nivel": "1",
-    "asignatura": "COMUNICACIÓN EN CONTEXTO",
-    "nrc": "22422",
-    "seccion": "1",
-    "profesor": "Pilar Saldaña",
+    "id": "202620-13030",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "ARGUMENTACIÓN JURÍDICA Y DEBATE",
+    "nrc": "13030",
+    "seccion": "2",
+    "profesor": "Juan Carlos Bussenius",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "14:00",
+        "fin": "15:20",
+        "edificio": "E",
+        "sala": "334"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 2
+  },
+  {
+    "id": "202620-22466",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "FG: ELECTIVO DE COMUNICACIÓN - COMUNICACIÓN Y ARGUMENTACIÓN",
+    "nrc": "22466",
+    "seccion": "2",
+    "profesor": "No informado",
     "horarios": [
       {
         "dia": "Jue",
         "inicio": "15:30",
-        "fin": "18:20"
+        "fin": "18:20",
+        "edificio": "F",
+        "sala": "125"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 2,
+    "observaciones": "El PDF no informa docente."
   },
   {
-    "nivel": "1",
-    "asignatura": "Historia del Derecho",
-    "nrc": "21639",
+    "id": "202620-13009",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "HISTORIA INSTITUCIONAL DE CHILE",
+    "nrc": "13009",
+    "seccion": "3",
+    "profesor": "Oscar Dávila Campusano",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "08:41",
+        "fin": "10:50",
+        "edificio": "E",
+        "sala": "333"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 3
+  },
+  {
+    "id": "202620-13027",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "TEORÍA CONSTITUCIONAL",
+    "nrc": "13027",
+    "seccion": "3",
+    "profesor": "Andrea Íñiguez",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "09:30",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "331"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 3
+  },
+  {
+    "id": "202620-13015",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "FUNDAMENTOS FILOSÓFICOS DEL DERECHO",
+    "nrc": "13015",
     "seccion": "3",
     "profesor": "Fernando Pérez Godoy",
     "horarios": [
       {
-        "dia": "Lun",
+        "dia": "Vie",
         "inicio": "11:00",
-        "fin": "13:10"
+        "fin": "13:10",
+        "edificio": "E",
+        "sala": "332"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 3
   },
   {
-    "nivel": "1",
-    "asignatura": "Historia y Evolución  de las Instituciones Civiles",
-    "nrc": "21645",
+    "id": "202620-13021",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "TEORÍA DE LA LEY Y LAS PERSONAS",
+    "nrc": "13021",
     "seccion": "3",
-    "profesor": "Oscar Olivares Jatib",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "08:41",
-        "fin": "10:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Derecho Político",
-    "nrc": "21651",
-    "seccion": "3",
-    "profesor": "Andrea Íñiguez Manzo",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Derecho Político",
-    "nrc": "21652",
-    "seccion": "3",
-    "profesor": "Andrea Íñiguez Manzo",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Introducción a la Economía",
-    "nrc": "21656",
-    "seccion": "2",
-    "profesor": "Werner Kandora Gutierrez",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "14:00",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Introducción al Derecho",
-    "nrc": "21660",
-    "seccion": "3",
-    "profesor": "José Ignacio Núñez Leiva",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "COMUNICACIÓN EN CONTEXTO",
-    "nrc": "22423",
-    "seccion": "2",
-    "profesor": "Sandra Vera",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Historia del Derecho",
-    "nrc": "21641",
-    "seccion": "5",
-    "profesor": "Óscar Dávila Campusano",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "08:41",
-        "fin": "10:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Historia y Evolución  de las Instituciones Civiles",
-    "nrc": "21647",
-    "seccion": "5",
-    "profesor": "Oscar Olivares Jatib",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "08:41",
-        "fin": "10:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Derecho Político",
-    "nrc": "21653",
-    "seccion": "5",
-    "profesor": "Andrea Íñiguez Manzo",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Introducción a la Economía",
-    "nrc": "21657",
-    "seccion": "3",
-    "profesor": "Jorge Francisco Lama Navarro",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "08:00",
-        "fin": "08:40"
-      },
-      {
-        "dia": "Jue",
-        "inicio": "08:00",
-        "fin": "08:40"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "Introducción al Derecho",
-    "nrc": "21662",
-    "seccion": "5",
-    "profesor": "José Ignacio Núñez Leiva",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "1",
-    "asignatura": "COMUNICACIÓN EN CONTEXTO",
-    "nrc": "22424",
-    "seccion": "3",
-    "profesor": "Carlos Miranda",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "ACTO JURÍDICO",
-    "nrc": "21664",
-    "seccion": "1",
-    "profesor": "Juan Rodrigo Barría",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "11:00",
-        "fin": "13:10"
-      },
-      {
-        "dia": "Mie",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "ORGANIZACIÓN Y ATRIBUCIÓN DE LOS TRIBUNALES",
-    "nrc": "21667",
-    "seccion": "1",
-    "profesor": "Bryan Precht",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "08:00",
-        "fin": "10:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "DERECHO CONSTITUCIONAL ORGÁNICO",
-    "nrc": "21670",
-    "seccion": "1",
-    "profesor": "Mauricio León Cáceres",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "TEORÍA DEL DELITO",
-    "nrc": "21673",
-    "seccion": "1",
-    "profesor": "Nelly Salvo",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "NEGOCIACIÓN Y ÉTICA PROFESIONAL",
-    "nrc": "21676",
-    "seccion": "1",
-    "profesor": "Juan Carlos Bussenius",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "14:00",
-        "fin": "15:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "APRENDIZAJE ACTIVO",
-    "nrc": "22425",
-    "seccion": "1",
-    "profesor": "Pilar Saldaña",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "ACTO JURÍDICO",
-    "nrc": "21665",
-    "seccion": "2",
-    "profesor": "Juan Rodrigo Barría",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "15:30",
-        "fin": "18:20"
-      },
-      {
-        "dia": "Mie",
-        "inicio": "14:00",
-        "fin": "15:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "ORGANIZACIÓN Y ATRIBUCIÓN DE LOS TRIBUNALES",
-    "nrc": "21668",
-    "seccion": "2",
-    "profesor": "Bryan Precht",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "08:00",
-        "fin": "10:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "DERECHO CONSTITUCIONAL ORGÁNICO",
-    "nrc": "21671",
-    "seccion": "2",
-    "profesor": "Mauricio León Cáceres",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "14:00",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "TEORÍA DEL DELITO",
-    "nrc": "21674",
-    "seccion": "2",
-    "profesor": "Nelly Salvo",
+    "profesor": "Silvana del Valle Bustos",
     "horarios": [
       {
         "dia": "Lun",
         "inicio": "14:00",
-        "fin": "15:20"
-      },
-      {
-        "dia": "Mar",
-        "inicio": "14:00",
-        "fin": "15:20"
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "331"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 3
   },
   {
-    "nivel": "3",
-    "asignatura": "NEGOCIACIÓN Y ÉTICA PROFESIONAL",
-    "nrc": "21677",
-    "seccion": "2",
-    "profesor": "Juan Carlos Bussenius",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "15:30",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "APRENDIZAJE ACTIVO",
-    "nrc": "22426",
-    "seccion": "2",
-    "profesor": "Sandra Vera",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "ACTO JURÍDICO",
-    "nrc": "21666",
-    "seccion": "3",
-    "profesor": "Pablo Ulloa Valenzuela",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "11:00",
-        "fin": "12:20"
-      },
-      {
-        "dia": "Lun",
-        "inicio": "14:00",
-        "fin": "15:20"
-      },
-      {
-        "dia": "Mar",
-        "inicio": "14:00",
-        "fin": "15:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "ORGANIZACIÓN Y ATRIBUCIÓN DE LOS TRIBUNALES",
-    "nrc": "21669",
-    "seccion": "3",
-    "profesor": "Bryan Precht",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "11:00",
-        "fin": "12:20"
-      },
-      {
-        "dia": "Jue",
-        "inicio": "11:00",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "DERECHO CONSTITUCIONAL ORGÁNICO",
-    "nrc": "21672",
-    "seccion": "3",
-    "profesor": "Mauricio León Cáceres",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "TEORÍA DEL DELITO",
-    "nrc": "21675",
-    "seccion": "3",
-    "profesor": "Francisco Morales",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "NEGOCIACIÓN Y ÉTICA PROFESIONAL",
-    "nrc": "21678",
-    "seccion": "3",
-    "profesor": "Roberto Rabi Gonzalez",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "15:30",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "3",
-    "asignatura": "APRENDIZAJE ACTIVO",
-    "nrc": "22427",
-    "seccion": "3",
-    "profesor": "Hanny Del Valle",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "TEORÍA DE LAS OBLIGACIONES",
-    "nrc": "21679",
-    "seccion": "1",
-    "profesor": "Rodrigo Barría",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "17:00",
-        "fin": "18:30"
-      },
-      {
-        "dia": "Jue",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "PROCEDIMIENTOS CIVILES DE COGNICIÓN",
-    "nrc": "21682",
-    "seccion": "1",
-    "profesor": "Angela Composto Longhi",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "09:30",
-        "fin": "12:20"
-      },
-      {
-        "dia": "Mie",
-        "inicio": "14:00",
-        "fin": "15:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "DERECHO INDIVIDUAL DEL TRABAJO",
-    "nrc": "21685",
-    "seccion": "1",
-    "profesor": "Oscar Olivares Jatib",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "14:00",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "DELITOS EN PARTICULAR I",
-    "nrc": "21688",
-    "seccion": "1",
-    "profesor": "Nelly Salvo",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "11:00",
-        "fin": "13:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "DESARROLLO PERSONAL Y PLAN DE VIDA",
-    "nrc": "22428",
-    "seccion": "1",
-    "profesor": "Isabel Fernández",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "TEORÍA DE LAS OBLIGACIONES",
-    "nrc": "21680",
-    "seccion": "2",
-    "profesor": "Rodrigo Barría",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "14:00",
-        "fin": "15:20"
-      },
-      {
-        "dia": "Mar",
-        "inicio": "14:00",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "PROCEDIMIENTOS CIVILES DE COGNICIÓN",
-    "nrc": "21683",
-    "seccion": "2",
-    "profesor": "Angela Composto Longhi",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "09:30",
-        "fin": "12:20"
-      },
-      {
-        "dia": "Jue",
-        "inicio": "14:00",
-        "fin": "15:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "DERECHO INDIVIDUAL DEL TRABAJO",
-    "nrc": "21686",
-    "seccion": "2",
-    "profesor": "Leonel Octavio Busto Diaz",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "DELITOS EN PARTICULAR I",
-    "nrc": "21689",
-    "seccion": "2",
-    "profesor": "José Manuel Urrejola Morales",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "11:00",
-        "fin": "13:10"
-      },
-      {
-        "dia": "Mie",
-        "inicio": "17:00",
-        "fin": "19:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "DESARROLLO PERSONAL Y PLAN DE VIDA",
-    "nrc": "22429",
-    "seccion": "2",
-    "profesor": "Valeska Riquelme",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "TEORÍA DE LAS OBLIGACIONES",
-    "nrc": "21681",
-    "seccion": "3",
-    "profesor": "Andrea Cabrolier",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "15:30",
-        "fin": "18:20"
-      },
-      {
-        "dia": "Jue",
-        "inicio": "15:30",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "PROCEDIMIENTOS CIVILES DE COGNICIÓN",
-    "nrc": "21684",
-    "seccion": "3",
-    "profesor": "Rodrigo Peña Sepúlveda",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "09:30",
-        "fin": "12:20"
-      },
-      {
-        "dia": "Jue",
-        "inicio": "14:00",
-        "fin": "15:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "5",
-    "asignatura": "DERECHO INDIVIDUAL DEL TRABAJO",
-    "nrc": "21687",
+    "id": "202620-13031",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "ARGUMENTACIÓN JURÍDICA Y DEBATE",
+    "nrc": "13031",
     "seccion": "3",
     "profesor": "Fernando Hidalgo Araya",
     "horarios": [
       {
-        "dia": "Mar",
+        "dia": "Jue",
         "inicio": "14:00",
-        "fin": "16:50"
+        "fin": "15:20",
+        "edificio": "E",
+        "sala": "332"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 3
   },
   {
-    "nivel": "5",
-    "asignatura": "DELITOS EN PARTICULAR I",
-    "nrc": "21690",
+    "id": "202620-22467",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "1",
+    "nivel": "2",
+    "asignatura": "FG: ELECTIVO DE COMUNICACIÓN - COMUNICACIÓN Y ARGUMENTACIÓN",
+    "nrc": "22467",
     "seccion": "3",
-    "profesor": "Alejandro Sánchez Mondaca",
+    "profesor": "No informado",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "15:30",
+        "fin": "18:20",
+        "edificio": "F",
+        "sala": "124"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 3,
+    "observaciones": "El PDF no informa docente."
+  },
+  {
+    "id": "202620-13038",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "DERECHO Y GARANTÍAS CONSTITUCIONALES",
+    "nrc": "13038",
+    "seccion": "1",
+    "profesor": "Mauricio León Cáceres",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "09:30",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "331"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 4
+  },
+  {
+    "id": "202620-13041",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "DERECHO INTERNACIONAL PÚBLICO",
+    "nrc": "13041",
+    "seccion": "1",
+    "profesor": "Pamela Noseda",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "11:00",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "333"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 4
+  },
+  {
+    "id": "202620-13044",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TEORÍA DE LA REACCIÓN PENAL",
+    "nrc": "13044",
+    "seccion": "1",
+    "profesor": "Nelly Salvo",
     "horarios": [
       {
         "dia": "Lun",
-        "inicio": "15:30",
-        "fin": "18:20"
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "124"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 4
   },
   {
-    "nivel": "7",
-    "asignatura": "DERECHO DE FAMILIA",
-    "nrc": "21691",
+    "id": "202620-13047",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TALLER DE INTEGRACIÓN I",
+    "nrc": "13047",
     "seccion": "1",
-    "profesor": "Nicolás Ibáñez Meza",
+    "profesor": "Pablo Ulloa y Silvana del Valle",
     "horarios": [
       {
-        "dia": "Mie",
-        "inicio": "09:30",
-        "fin": "12:20"
-      },
-      {
-        "dia": "Mie",
+        "dia": "Mar",
         "inicio": "14:00",
-        "fin": "15:20"
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "331"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 4
   },
   {
-    "nivel": "7",
-    "asignatura": "RESPONSABILIDAD CIVIL",
-    "nrc": "21693",
+    "id": "202620-13035",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TEORÍA DEL PROCESO",
+    "nrc": "13035",
     "seccion": "1",
-    "profesor": "Pablo Ulloa Valenzuela",
+    "profesor": "Roberto Rabi",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": "E",
+        "sala": "331"
+      },
+      {
+        "dia": "Jue",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "331"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 4
+  },
+  {
+    "id": "202620-23023",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "3",
+    "asignatura": "ORGANIZACIÓN Y ATRIBUCIÓN DE LOS TRIBUNALES",
+    "nrc": "23023",
+    "seccion": "1",
+    "profesor": "Pamela Noseda",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "123"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": true,
+    "fuente_pagina": 4
+  },
+  {
+    "id": "202620-13032",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "BIENES",
+    "nrc": "13032",
+    "seccion": "1",
+    "profesor": "Rodrigo Barría",
     "horarios": [
       {
         "dia": "Lun",
-        "inicio": "08:00",
-        "fin": "10:50"
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": "E",
+        "sala": "331"
       },
       {
         "dia": "Mie",
         "inicio": "15:30",
-        "fin": "16:50"
+        "fin": "18:20",
+        "edificio": "E",
+        "sala": "331"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 4
   },
   {
-    "nivel": "7",
-    "asignatura": "DERECHO SOCIETARIO",
-    "nrc": "21695",
-    "seccion": "1",
-    "profesor": "Jaime Benavente",
+    "id": "202620-13036",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TEORÍA DEL PROCESO",
+    "nrc": "13036",
+    "seccion": "2",
+    "profesor": "Bryan Precht",
     "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "08:00",
+        "fin": "10:50",
+        "edificio": "F",
+        "sala": "125"
+      },
       {
         "dia": "Jue",
         "inicio": "08:00",
-        "fin": "10:50"
+        "fin": "09:20",
+        "edificio": "F",
+        "sala": "125"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 5
   },
   {
-    "nivel": "7",
-    "asignatura": "DERECHO ADMINISTRATIVO I",
-    "nrc": "21697",
-    "seccion": "1",
-    "profesor": "Claudio Antonio Herrera Aguayo",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "7",
-    "asignatura": "DERECHO PROCESAL PENAL",
-    "nrc": "21699",
-    "seccion": "1",
-    "profesor": "Javier Castro",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "15:30",
-        "fin": "18:20"
-      },
-      {
-        "dia": "Vie",
-        "inicio": "14:00",
-        "fin": "15:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "7",
-    "asignatura": "TALLER DE LITIGACIÓN",
-    "nrc": "21701",
-    "seccion": "1",
-    "profesor": "Jorge Ríos",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "08:00",
-        "fin": "09:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "7",
-    "asignatura": "DERECHO DE FAMILIA",
-    "nrc": "21692",
+    "id": "202620-13033",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "BIENES",
+    "nrc": "13033",
     "seccion": "2",
-    "profesor": "Luis Bustamante Robin",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "11:00",
-        "fin": "13:10"
-      },
-      {
-        "dia": "Vie",
-        "inicio": "11:00",
-        "fin": "13:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "7",
-    "asignatura": "RESPONSABILIDAD CIVIL",
-    "nrc": "21694",
-    "seccion": "2",
-    "profesor": "Silvana Del Valle  Bustos",
+    "profesor": "Pablo Ulloa",
     "horarios": [
       {
         "dia": "Lun",
-        "inicio": "08:00",
-        "fin": "10:50"
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "125"
+      },
+      {
+        "dia": "Mar",
+        "inicio": "11:00",
+        "fin": "12:20",
+        "edificio": "F",
+        "sala": "125"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 5
   },
   {
-    "nivel": "7",
-    "asignatura": "DERECHO SOCIETARIO",
-    "nrc": "21696",
+    "id": "202620-13048",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TALLER DE INTEGRACIÓN I",
+    "nrc": "13048",
     "seccion": "2",
-    "profesor": "Pablo Díaz",
+    "profesor": "Bryan Precht y Andrea Cabrolier",
     "horarios": [
       {
         "dia": "Jue",
         "inicio": "09:30",
-        "fin": "12:20"
+        "fin": "12:20",
+        "edificio": "F",
+        "sala": "125"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 5
   },
   {
-    "nivel": "7",
-    "asignatura": "DERECHO ADMINISTRATIVO I",
-    "nrc": "21698",
-    "seccion": "2",
-    "profesor": "Javier Esteban Leiva Albornoz",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "7",
-    "asignatura": "DERECHO PROCESAL PENAL",
-    "nrc": "21700",
-    "seccion": "2",
-    "profesor": "Javier Castro",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "14:00",
-        "fin": "15:20"
-      },
-      {
-        "dia": "Vie",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "7",
-    "asignatura": "TALLER DE LITIGACIÓN",
-    "nrc": "21702",
-    "seccion": "2",
-    "profesor": "Jorge Ríos",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "08:00",
-        "fin": "09:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "7",
-    "asignatura": "TALLER DE LITIGACIÓN",
-    "nrc": "21703",
-    "seccion": "3",
-    "profesor": "Jorge Ríos",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "08:00",
-        "fin": "09:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "RECURSOS",
-    "nrc": "21704",
-    "seccion": "1",
-    "profesor": "Angela Composto Longhi",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "12:30",
-        "fin": "13:10"
-      },
-      {
-        "dia": "Mie",
-        "inicio": "17:00",
-        "fin": "19:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "REORGANIZACIÓN  Y LIQUIDACIÓN PATRIMONIAL",
-    "nrc": "21746",
-    "seccion": "1",
-    "profesor": "Alejandro Alvarez Aravena",
-    "horarios": [
-      {
-        "dia": "Vie",
-        "inicio": "08:00",
-        "fin": "09:20"
-      },
-      {
-        "dia": "Vie",
-        "inicio": "11:00",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "DERECHO TRIBUTARIO II",
-    "nrc": "21748",
-    "seccion": "1",
-    "profesor": "Eduardo Guerrero",
-    "horarios": [
-      {
-        "dia": "Vie",
-        "inicio": "14:00",
-        "fin": "15:20"
-      },
-      {
-        "dia": "Vie",
-        "inicio": "17:00",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "CLÍNICA JURÍDICA",
-    "nrc": "21750",
-    "seccion": "1",
-    "profesor": "Christian Toro",
-    "horarios": [
-      {
-        "dia": "Mar",
-        "inicio": "08:41",
-        "fin": "13:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "OPTATIVO DE ESPECIALIZACIÓN II (Derecho regulatorio)",
-    "nrc": "21753",
-    "seccion": "1",
-    "profesor": "Alvaro Delgado",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "11:00",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "RECURSOS",
-    "nrc": "21705",
-    "seccion": "2",
-    "profesor": "Angela Composto Longhi",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "12:00",
-        "fin": "13:10"
-      },
-      {
-        "dia": "Jue",
-        "inicio": "17:00",
-        "fin": "19:10"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "REORGANIZACIÓN  Y LIQUIDACIÓN PATRIMONIAL",
-    "nrc": "21747",
-    "seccion": "2",
-    "profesor": "Pablo Díaz",
-    "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "08:00",
-        "fin": "09:20"
-      },
-      {
-        "dia": "Vie",
-        "inicio": "08:00",
-        "fin": "09:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "DERECHO TRIBUTARIO II",
-    "nrc": "21749",
+    "id": "202620-13042",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "DERECHO INTERNACIONAL PÚBLICO",
+    "nrc": "13042",
     "seccion": "2",
     "profesor": "Rodrigo Cortés",
     "horarios": [
       {
         "dia": "Vie",
         "inicio": "11:00",
-        "fin": "12:20"
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "336"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 5
+  },
+  {
+    "id": "202620-13045",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TEORÍA DE LA REACCIÓN PENAL",
+    "nrc": "13045",
+    "seccion": "2",
+    "profesor": "Nelly Salvo",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "333"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 5
+  },
+  {
+    "id": "202620-13039",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "DERECHO Y GARANTÍAS CONSTITUCIONALES",
+    "nrc": "13039",
+    "seccion": "2",
+    "profesor": "Mauricio León Cáceres",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "333"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 5
+  },
+  {
+    "id": "202620-13034",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "BIENES",
+    "nrc": "13034",
+    "seccion": "3",
+    "profesor": "Pablo Ulloa",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "09:30",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "336"
+      },
+      {
+        "dia": "Mar",
+        "inicio": "09:30",
+        "fin": "10:50",
+        "edificio": "E",
+        "sala": "336"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 6
+  },
+  {
+    "id": "202620-13040",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "DERECHO Y GARANTÍAS CONSTITUCIONALES",
+    "nrc": "13040",
+    "seccion": "3",
+    "profesor": "Mauricio León Cáceres",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "09:30",
+        "fin": "12:20",
+        "edificio": "F",
+        "sala": "123"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 6
+  },
+  {
+    "id": "202620-13046",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TEORÍA DE LA REACCIÓN PENAL",
+    "nrc": "13046",
+    "seccion": "3",
+    "profesor": "Javier Castro",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "123"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 6
+  },
+  {
+    "id": "202620-13049",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TALLER DE INTEGRACIÓN I",
+    "nrc": "13049",
+    "seccion": "3",
+    "profesor": "Claudia Cortés y Rodrigo Peña",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "336"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 6
+  },
+  {
+    "id": "202620-13043",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "DERECHO INTERNACIONAL PÚBLICO",
+    "nrc": "13043",
+    "seccion": "3",
+    "profesor": "Rodrigo Cortés",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "15:30",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "015"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 6
+  },
+  {
+    "id": "202620-13037",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TEORÍA DEL PROCESO",
+    "nrc": "13037",
+    "seccion": "3",
+    "profesor": "Rodrigo Peña",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "17:00",
+        "fin": "19:10",
+        "edificio": "E",
+        "sala": "333"
+      },
+      {
+        "dia": "Mie",
+        "inicio": "17:00",
+        "fin": "19:10",
+        "edificio": "E",
+        "sala": "333"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 6
+  },
+  {
+    "id": "202620-23019",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "3",
+    "asignatura": "ACTO JURÍDICO",
+    "nrc": "23019",
+    "seccion": "4",
+    "profesor": "Jorge Sepúlveda",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "11:00",
+        "fin": "13:10",
+        "edificio": "D",
+        "sala": "245"
+      },
+      {
+        "dia": "Jue",
+        "inicio": "11:00",
+        "fin": "13:10",
+        "edificio": "D",
+        "sala": "245"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": true,
+    "fuente_pagina": 7
+  },
+  {
+    "id": "202620-13050",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "2",
+    "nivel": "4",
+    "asignatura": "TALLER DE INTEGRACIÓN I",
+    "nrc": "13050",
+    "seccion": "4",
+    "profesor": "Javier Ravest y José Manuel Urrejola",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "15:30",
+        "fin": "18:20",
+        "edificio": "F",
+        "sala": "124"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 7
+  },
+  {
+    "id": "202620-13060",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "DERECHO COLECTIVO DEL TRABAJO",
+    "nrc": "13060",
+    "seccion": "1",
+    "profesor": "Oscar Olivares",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "08:00",
+        "fin": "10:50",
+        "edificio": "E",
+        "sala": "442"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 8
+  },
+  {
+    "id": "202620-13057",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "DERECHO MERCANTIL",
+    "nrc": "13057",
+    "seccion": "1",
+    "profesor": "Jaime Benavente",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "08:00",
+        "fin": "10:50",
+        "edificio": "E",
+        "sala": "335"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 8
+  },
+  {
+    "id": "202620-23024",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "TEORÍA DE LAS OBLIGACIONES",
+    "nrc": "23024",
+    "seccion": "1",
+    "profesor": "Luis Bustamante",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "08:00",
+        "fin": "10:50",
+        "edificio": "E",
+        "sala": "333"
+      },
+      {
+        "dia": "Vie",
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": "E",
+        "sala": "332"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": true,
+    "fuente_pagina": 8
+  },
+  {
+    "id": "202620-13051",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "FUENTES DE LAS OBLIGACIONES",
+    "nrc": "13051",
+    "seccion": "1",
+    "profesor": "Rodrigo Barría",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "11:00",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "441"
+      },
+      {
+        "dia": "Lun",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "441"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 8
+  },
+  {
+    "id": "202620-13054",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "PROCEDIMIENTOS DE EJECUCIÓN Y CAUTELA",
+    "nrc": "13054",
+    "seccion": "1",
+    "profesor": "Ángela Composto",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "442"
+      },
+      {
+        "dia": "Jue",
+        "inicio": "11:00",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "442"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 8
+  },
+  {
+    "id": "202620-23026",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "5",
+    "asignatura": "PROCEDIMIENTOS CIVILES DE COGNICIÓN",
+    "nrc": "23026",
+    "seccion": "1",
+    "profesor": "Fernando Hidalgo",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "11:00",
+        "fin": "12:20",
+        "edificio": "F",
+        "sala": "125"
       },
       {
         "dia": "Vie",
         "inicio": "14:00",
-        "fin": "15:20"
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "125"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": true,
+    "fuente_pagina": 8
   },
   {
-    "nivel": "9",
-    "asignatura": "CLÍNICA JURÍDICA",
-    "nrc": "21751",
+    "id": "202620-22538",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "FG: ELECTIVO DE RESPONSABILIDAD SOCIAL",
+    "nrc": "22538",
+    "seccion": "1",
+    "profesor": "No informado",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "15:30",
+        "fin": "18:20",
+        "edificio": "F",
+        "sala": "241"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 8,
+    "observaciones": "El PDF no informa docente."
+  },
+  {
+    "id": "202620-13063",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "DELITOS EN PARTICULAR II",
+    "nrc": "13063",
+    "seccion": "1",
+    "profesor": "Nelly Salvo",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "17:00",
+        "fin": "19:10",
+        "edificio": "E",
+        "sala": "335"
+      },
+      {
+        "dia": "Mar",
+        "inicio": "17:00",
+        "fin": "19:10",
+        "edificio": "E",
+        "sala": "335"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 8
+  },
+  {
+    "id": "202620-13061",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "DERECHO COLECTIVO DEL TRABAJO",
+    "nrc": "13061",
     "seccion": "2",
-    "profesor": "Myriam Hernández",
+    "profesor": "Oscar Olivares",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "11:00",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "442"
+      },
+      {
+        "dia": "Lun",
+        "inicio": "14:00",
+        "fin": "15:20",
+        "edificio": "E",
+        "sala": "442"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 9
+  },
+  {
+    "id": "202620-13055",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "PROCEDIMIENTOS DE EJECUCIÓN Y CAUTELA",
+    "nrc": "13055",
+    "seccion": "2",
+    "profesor": "Ángela Composto",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "09:30",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "335"
+      },
+      {
+        "dia": "Mie",
+        "inicio": "11:00",
+        "fin": "13:10",
+        "edificio": "E",
+        "sala": "335"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 9
+  },
+  {
+    "id": "202620-13058",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "DERECHO MERCANTIL",
+    "nrc": "13058",
+    "seccion": "2",
+    "profesor": "Pablo Díaz",
     "horarios": [
       {
         "dia": "Jue",
-        "inicio": "08:41",
-        "fin": "13:10"
+        "inicio": "09:30",
+        "fin": "12:20",
+        "edificio": "F",
+        "sala": "229"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 9
   },
   {
-    "nivel": "9",
-    "asignatura": "OPTATIVO DE ESPECIALIZACIÓN II (Derecho regulatorio)",
-    "nrc": "21754",
+    "id": "202620-13052",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "FUENTES DE LAS OBLIGACIONES",
+    "nrc": "13052",
     "seccion": "2",
-    "profesor": "Alvaro Delgado",
+    "profesor": "Rodrigo Barría",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "441"
+      },
+      {
+        "dia": "Mie",
+        "inicio": "14:00",
+        "fin": "15:20",
+        "edificio": "E",
+        "sala": "441"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 9
+  },
+  {
+    "id": "202620-22536",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "FG: ELECTIVO DE RESPONSABILIDAD SOCIAL",
+    "nrc": "22536",
+    "seccion": "2",
+    "profesor": "No informado",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "15:30",
+        "fin": "18:20",
+        "edificio": "F",
+        "sala": "240"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 9,
+    "observaciones": "El PDF no informa docente."
+  },
+  {
+    "id": "202620-13064",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "3",
+    "nivel": "6",
+    "asignatura": "DELITOS EN PARTICULAR II",
+    "nrc": "13064",
+    "seccion": "2",
+    "profesor": "Javier Castro",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "17:00",
+        "fin": "19:10",
+        "edificio": "E",
+        "sala": "442"
+      },
+      {
+        "dia": "Mar",
+        "inicio": "17:00",
+        "fin": "19:10",
+        "edificio": "E",
+        "sala": "442"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 9
+  },
+  {
+    "id": "202620-SIN-NRC-8-1-RESPONSABILIDAD-CIVIL",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "7",
+    "asignatura": "RESPONSABILIDAD CIVIL",
+    "nrc": "23028",
+    "seccion": "1",
+    "profesor": "Andrés López",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "08:00",
+        "fin": "10:50",
+        "edificio": "D",
+        "sala": "245"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": true,
+    "fuente_pagina": 10
+  },
+  {
+    "id": "202620-13076",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "DERECHO ADMINISTRATIVO II",
+    "nrc": "13076",
+    "seccion": "1",
+    "profesor": "Álvaro Delgado Lara",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "09:30",
+        "fin": "12:20",
+        "edificio": "E",
+        "sala": "442"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
+  },
+  {
+    "id": "202620-13074",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "CONTRATACIÓN MERCANTIL",
+    "nrc": "13074",
+    "seccion": "1",
+    "profesor": "Pablo Díaz",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "09:30",
+        "fin": "12:20",
+        "edificio": "F",
+        "sala": "016"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
+  },
+  {
+    "id": "202620-13069",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES LAB 1",
+    "nrc": "13069",
+    "seccion": "1",
+    "profesor": "Fernando Hidalgo",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "11:00",
+        "fin": "12:20",
+        "edificio": "D",
+        "sala": "242"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
+  },
+  {
+    "id": "202620-13068",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES TEORÍA",
+    "nrc": "13068",
+    "seccion": "1",
+    "profesor": "Fernando Hidalgo",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "442"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
+  },
+  {
+    "id": "202620-13080",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "TALLER DE INTEGRACIÓN II",
+    "nrc": "13080",
+    "seccion": "1",
+    "profesor": "Pablo Ulloa y Ángela Composto",
     "horarios": [
       {
         "dia": "Jue",
         "inicio": "14:00",
-        "fin": "15:20"
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "014"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
   },
   {
-    "nivel": "9",
-    "asignatura": "CLÍNICA JURÍDICA",
-    "nrc": "21752",
-    "seccion": "3",
-    "profesor": "Luis Leal Aguilar",
+    "id": "202620-13078",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "DERECHO TRIBUTARIO II",
+    "nrc": "13078",
+    "seccion": "1",
+    "profesor": "Rodrigo Cortés",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "233"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
+  },
+  {
+    "id": "202620-13066",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "DERECHO SUCESORIO",
+    "nrc": "13066",
+    "seccion": "1",
+    "profesor": "Luis Bustamante Robin",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "15:30",
+        "fin": "18:20",
+        "edificio": "F",
+        "sala": "001"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
+  },
+  {
+    "id": "202620-13086",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "OPTATIVO DE ESPECIALIZACIÓN I",
+    "nrc": "13086",
+    "seccion": "1",
+    "profesor": "Jorge Sepúlveda",
     "horarios": [
       {
         "dia": "Mie",
-        "inicio": "08:41",
-        "fin": "13:10"
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": "F",
+        "sala": "230"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
   },
   {
+    "id": "202620-13070",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES LAB 2",
+    "nrc": "13070",
+    "seccion": "1",
+    "profesor": "Fernando Hidalgo",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "242"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 10
+  },
+  {
+    "id": "202620-13075",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "CONTRATACIÓN MERCANTIL",
+    "nrc": "13075",
+    "seccion": "2",
+    "profesor": "Jaime Benavente",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "08:00",
+        "fin": "10:50",
+        "edificio": "E",
+        "sala": "332"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13072",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES LAB 1",
+    "nrc": "13072",
+    "seccion": "2",
+    "profesor": "Ángela Composto",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "09:30",
+        "fin": "10:50",
+        "edificio": "D",
+        "sala": "244"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13077",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "DERECHO ADMINISTRATIVO II",
+    "nrc": "13077",
+    "seccion": "2",
+    "profesor": "Álvaro Delgado Lara",
+    "horarios": [
+      {
+        "dia": "Mar",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "234"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13071",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES TEORÍA",
+    "nrc": "13071",
+    "seccion": "2",
+    "profesor": "Ángela Composto",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "E",
+        "sala": "233"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13082",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "TALLER DE INTEGRACIÓN II",
+    "nrc": "13082",
+    "seccion": "2",
+    "profesor": "Claudia Cortés y Rodrigo Peña",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "016"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13079",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "DERECHO TRIBUTARIO II",
+    "nrc": "13079",
+    "seccion": "2",
+    "profesor": "Eduardo Guerrero",
+    "horarios": [
+      {
+        "dia": "Vie",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "230"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13067",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "DERECHO SUCESORIO",
+    "nrc": "13067",
+    "seccion": "2",
+    "profesor": "Andrea Cabrolier",
+    "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "15:30",
+        "fin": "18:20",
+        "edificio": "E",
+        "sala": "336"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13087",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "OPTATIVO DE ESPECIALIZACIÓN I",
+    "nrc": "13087",
+    "seccion": "2",
+    "profesor": "Claudia Apsé",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": "E",
+        "sala": "442"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13073",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES LAB 2",
+    "nrc": "13073",
+    "seccion": "2",
+    "profesor": "Ángela Composto",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "244"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 11
+  },
+  {
+    "id": "202620-13084",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "4",
+    "nivel": "8",
+    "asignatura": "TALLER DE INTEGRACIÓN II",
+    "nrc": "13084",
+    "seccion": "3",
+    "profesor": "Bryan Precht y Andrea Cabrolier",
+    "horarios": [
+      {
+        "dia": "Jue",
+        "inicio": "14:00",
+        "fin": "16:50",
+        "edificio": "F",
+        "sala": "242"
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 12
+  },
+  {
+    "id": "202620-13091",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "5",
     "nivel": "10",
     "asignatura": "TALLER DE INTEGRACIÓN III",
-    "nrc": "21755",
+    "nrc": "13091",
     "seccion": "1",
-    "profesor": "Fernando Scioll Albornoz",
+    "profesor": "Pamela Cisternas y Alejandro Álvarez",
     "horarios": [
       {
         "dia": "Lun",
         "inicio": "14:00",
-        "fin": "18:20"
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "242"
       },
       {
         "dia": "Mar",
         "inicio": "14:00",
-        "fin": "18:20"
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "243"
       },
       {
         "dia": "Mie",
         "inicio": "14:00",
-        "fin": "18:20"
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "242"
       },
       {
         "dia": "Jue",
         "inicio": "15:30",
-        "fin": "18:20"
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "243"
       },
       {
         "dia": "Vie",
         "inicio": "15:30",
-        "fin": "18:20"
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "243"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 13
   },
   {
-    "nivel": "3",
-    "asignatura": "INTRODUCCIÓN A LA PROGRAMACIÓN",
-    "nrc": "22300",
-    "seccion": "1",
-    "profesor": "Gerardo Cerda",
+    "id": "202620-13092",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "5",
+    "nivel": "10",
+    "asignatura": "TALLER DE INTEGRACIÓN III",
+    "nrc": "13092",
+    "seccion": "2",
+    "profesor": "Pablo Cruz y Fernando Sciolla",
     "horarios": [
+      {
+        "dia": "Lun",
+        "inicio": "14:00",
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "224"
+      },
+      {
+        "dia": "Mar",
+        "inicio": "14:00",
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "224"
+      },
+      {
+        "dia": "Mie",
+        "inicio": "14:00",
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "224"
+      },
       {
         "dia": "Jue",
         "inicio": "15:30",
-        "fin": "18:20"
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "237"
+      },
+      {
+        "dia": "Vie",
+        "inicio": "15:30",
+        "fin": "18:20",
+        "edificio": "D",
+        "sala": "237"
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 14
   },
   {
-    "nivel": "3",
-    "asignatura": "INTRODUCCIÓN A LA PROGRAMACIÓN",
-    "nrc": "22301",
-    "seccion": "2",
-    "profesor": "Magdalena Nieto",
+    "id": "202620-SIN-NRC-10-1-CLÍNICA-JURÍDICA",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "5",
+    "nivel": "10",
+    "asignatura": "CLÍNICA JURÍDICA",
+    "nrc": null,
+    "seccion": "1",
+    "profesor": "Christian Toro",
     "horarios": [
       {
-        "dia": "Mar",
-        "inicio": "15:30",
-        "fin": "18:20"
+        "dia": "Mie",
+        "inicio": "10:11",
+        "fin": "12:20",
+        "edificio": null,
+        "sala": null
+      },
+      {
+        "dia": "Jue",
+        "inicio": "10:11",
+        "fin": "12:20",
+        "edificio": null,
+        "sala": null
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 15,
+    "observaciones": "El PDF no informa NRC, edificio ni sala."
   },
   {
-    "nivel": "5",
+    "id": "202620-SIN-NRC-10-2-CLÍNICA-JURÍDICA",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "5",
+    "nivel": "10",
+    "asignatura": "CLÍNICA JURÍDICA",
+    "nrc": null,
+    "seccion": "2",
+    "profesor": "Miryam Hernández",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "10:11",
+        "fin": "12:20",
+        "edificio": null,
+        "sala": null
+      },
+      {
+        "dia": "Jue",
+        "inicio": "10:11",
+        "fin": "12:20",
+        "edificio": null,
+        "sala": null
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 16,
+    "observaciones": "El PDF no informa NRC, edificio ni sala."
+  },
+  {
+    "id": "202620-SIN-NRC-10-3-CLÍNICA-JURÍDICA",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": "5",
+    "nivel": "10",
+    "asignatura": "CLÍNICA JURÍDICA",
+    "nrc": null,
+    "seccion": "3",
+    "profesor": "Luis Leal",
+    "horarios": [
+      {
+        "dia": "Mie",
+        "inicio": "10:11",
+        "fin": "12:20",
+        "edificio": null,
+        "sala": null
+      },
+      {
+        "dia": "Jue",
+        "inicio": "10:11",
+        "fin": "12:20",
+        "edificio": null,
+        "sala": null
+      }
+    ],
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 17,
+    "observaciones": "El PDF no informa NRC, edificio ni sala."
+  },
+  {
+    "id": "202620-12626",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": null,
+    "nivel": null,
     "asignatura": "ÉTICA E IA",
-    "nrc": "22302",
-    "seccion": "1",
-    "profesor": "Por definir",
+    "nrc": "12626",
+    "seccion": null,
+    "profesor": "Ignacio Peña Caroca",
     "horarios": [
       {
         "dia": "Jue",
         "inicio": "08:00",
-        "fin": "10:50"
+        "fin": "10:50",
+        "edificio": null,
+        "sala": null
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 18,
+    "observaciones": "La tabla no informa año, sección, edificio ni sala."
   },
   {
-    "nivel": "5",
-    "asignatura": "ÉTICA E IA",
-    "nrc": "22303",
-    "seccion": "2",
-    "profesor": "Ignacio Peña",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "7",
+    "id": "202620-16627",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": null,
+    "nivel": null,
     "asignatura": "DISEÑO DE APLICACIONES EN IA",
-    "nrc": "22304",
-    "seccion": "1",
-    "profesor": "Magdalena Nieto",
+    "nrc": "16627",
+    "seccion": null,
+    "profesor": "Felipe Besnier Díaz",
     "horarios": [
       {
         "dia": "Mie",
         "inicio": "15:30",
-        "fin": "18:20"
+        "fin": "18:20",
+        "edificio": null,
+        "sala": null
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 18,
+    "observaciones": "La tabla no informa año, sección, edificio ni sala."
   },
   {
-    "nivel": "7",
-    "asignatura": "DISEÑO DE APLICACIONES EN IA",
-    "nrc": "22305",
-    "seccion": "2",
-    "profesor": "Gerardo Cerda",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
+    "id": "202620-13628",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": null,
+    "nivel": null,
     "asignatura": "CIBERSEGURIDAD",
-    "nrc": "22306",
-    "seccion": "1",
-    "profesor": "Ignacio Peña",
+    "nrc": "13628",
+    "seccion": null,
+    "profesor": "Felipe Osorio Umaña",
     "horarios": [
-      {
-        "dia": "Jue",
-        "inicio": "15:30",
-        "fin": "18:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "9",
-    "asignatura": "PROTECCIÓN DE DATOS PERSONALES",
-    "nrc": "22307",
-    "seccion": "1",
-    "profesor": "Francisca Barrientos",
-    "horarios": [
-      {
-        "dia": "Mie",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "4",
-    "asignatura": "Bienes",
-    "nrc": "31640",
-    "seccion": "1",
-    "profesor": "Andrés López Aránguiz",
-    "horarios": [
-      {
-        "dia": "Lun",
-        "inicio": "08:00",
-        "fin": "10:50"
-      },
       {
         "dia": "Mar",
-        "inicio": "08:00",
-        "fin": "09:20"
+        "inicio": "17:40",
+        "fin": "20:20",
+        "edificio": null,
+        "sala": null
       }
     ],
-    "jornada": "Diurno"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 18,
+    "observaciones": "Horario transcrito literalmente; no coincide exactamente con los límites de módulos de la grilla principal. La tabla no informa año, sección, edificio ni sala."
   },
   {
-    "nivel": "2",
-    "asignatura": "Teoría Constitucional",
-    "nrc": "31638",
-    "seccion": "1",
-    "profesor": "Rocío Brebi",
+    "id": "202620-13630",
+    "periodo": "202620",
+    "sede": "SM",
+    "carrera": "Derecho",
+    "anio": null,
+    "nivel": null,
+    "asignatura": "PROTECCIÓN DE DATOS PERSONALES",
+    "nrc": "13630",
+    "seccion": null,
+    "profesor": "Sebastián Bozzo Hauri",
     "horarios": [
       {
-        "dia": "Vie",
-        "inicio": "09:30",
-        "fin": "12:20"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "4",
-    "asignatura": "Derechos y Garantías constitucionales",
-    "nrc": "31641",
-    "seccion": "1",
-    "profesor": "Alejandra Pérez Ceballos",
-    "horarios": [
+        "dia": "Mar",
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": null,
+        "sala": null
+      },
       {
-        "dia": "Vie",
-        "inicio": "09:30",
-        "fin": "12:20"
+        "dia": "Mie",
+        "inicio": "17:00",
+        "fin": "18:20",
+        "edificio": null,
+        "sala": null
       }
     ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "4",
-    "asignatura": "Taller de Integración I",
-    "nrc": "31642",
-    "seccion": "1",
-    "profesor": "Pamela Cisternas- Alejandro Álvarez",
-    "horarios": [
-      {
-        "dia": "Vie",
-        "inicio": "14:00",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Diurno"
-  },
-  {
-    "nivel": "11",
-    "asignatura": "PRUEBA VESPERTINO",
-    "nrc": "999999",
-    "seccion": "1",
-    "profesor": "PROFESOR VESPER",
-    "horarios": [
-      {
-        "dia": "Vie",
-        "inicio": "14:00",
-        "fin": "16:50"
-      }
-    ],
-    "jornada": "Vespertino"
+    "jornada": "Diurno",
+    "alterno": false,
+    "fuente_pagina": 18,
+    "observaciones": "La tabla no informa año, sección, edificio ni sala."
   }
-
 ]
