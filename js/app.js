@@ -509,14 +509,31 @@ if (addByNrcBtn) {
     const nrc = nrcInput?.value?.trim();
     if (!nrc) return;
 
-    const sec = catalog.find((c) => String(c.nrc) === String(nrc));
+    const sec = catalog.find(
+      (c) => String(c.nrc) === String(nrc)
+    );
+
     if (!sec) {
       alert("No encontré ese NRC en el catálogo.");
       return;
     }
 
     addSection(sec);
-    if (nrcInput) nrcInput.value = "";
+
+    if (nrcInput) {
+      nrcInput.value = "";
+      nrcInput.focus();
+    }
+  });
+}
+
+// Permitir agregar el NRC presionando Enter
+if (nrcInput) {
+  nrcInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      addByNrcBtn?.click();
+    }
   });
 }
 
