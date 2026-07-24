@@ -1,10 +1,43 @@
 // =======================
 // CONFIG GENERAL
 // =======================
-const DAYS = ["Lun", "Mar", "Mie", "Jue", "Vie"];
-const START = "08:00";
-const END = "22:00";
-const SLOT_MIN = 30; // grilla cada 30 min
+const DAYS = [
+  { key: "Lun", label: "LUNES" },
+  { key: "Mar", label: "MARTES" },
+  { key: "Mie", label: "MIÉRCOLES" },
+  { key: "Jue", label: "JUEVES" },
+  { key: "Vie", label: "VIERNES" },
+];
+
+// Módulos institucionales de la Facultad de Derecho.
+// Cada fila representa un bloque real, no intervalos genéricos de 30 minutos.
+const FACULTY_MODULES = [
+  { inicio: "08:00", fin: "08:40" },
+  { inicio: "08:41", fin: "09:20" },
+  { inicio: "09:30", fin: "10:10" },
+  { inicio: "10:11", fin: "10:50" },
+  { inicio: "11:00", fin: "11:40" },
+  { inicio: "11:41", fin: "12:20" },
+  { inicio: "12:30", fin: "13:10" },
+  { inicio: "13:20", fin: "13:50", protegido: true, label: "BLOQUE PROTEGIDO" },
+  { inicio: "14:00", fin: "14:40" },
+  { inicio: "14:41", fin: "15:20" },
+  { inicio: "15:30", fin: "16:10" },
+  { inicio: "16:11", fin: "16:50" },
+  { inicio: "17:00", fin: "17:40" },
+  { inicio: "17:41", fin: "18:20" },
+  { inicio: "18:30", fin: "19:10" },
+];
+
+// Se deja la estructura separada para poder incorporar después
+// una grilla vespertina distinta sin tocar la lógica de dibujo.
+const SCHEDULES = {
+  Diurno: FACULTY_MODULES,
+  Vespertino: FACULTY_MODULES,
+};
+
+const GRID_HEADER_PX = 44;
+const GRID_ROW_PX = 52;
 
 // Catálogo (cursos) y selección actual
 let allCourses = [];
@@ -143,6 +176,7 @@ function applyJornadaFilter() {
   // Seguridad: no mezclar jornadas
   selected = [];
   buildSelectors();
+  buildGrid();
   renderAll();
 }
 
@@ -151,7 +185,7 @@ function applyJornadaFilter() {
 // =======================
 async function loadCatalog() {
   try {
-    const res = await fetch("data/courses.json?v=3", { cache: "no-store" });
+    const res = await fetch("data/courses.json?v=4", { cache: "no-store" });
     if (!res.ok) throw new Error(`No pude cargar courses.json (${res.status})`);
 
     allCourses = await res.json();
@@ -228,31 +262,56 @@ function makeCell(text, cls) {
   return div;
 }
 
+function getActiveSchedule() {
+  const jornada = jornadaSelect?.value || "Diurno";
+  return SCHEDULES[jornada] || FACULTY_MODULES;
+}
+
+function setGridPosition(el, column, row) {
+  el.style.gridColumn = String(column);
+  el.style.gridRow = String(row);
+  return el;
+}
+
 function buildGrid() {
   if (!ttGrid) return;
 
   ttGrid.innerHTML = "";
 
-  const startMin = toMin(START);
-  const endMin = toMin(END);
-  const totalSlots = Math.ceil((endMin - startMin) / SLOT_MIN);
-
-  ttGrid.style.height = `${(totalSlots + 1) * 40}px`;
+  const schedule = getActiveSchedule();
+  ttGrid.style.gridTemplateRows = `${GRID_HEADER_PX}px repeat(${schedule.length}, ${GRID_ROW_PX}px)`;
+  ttGrid.style.height = `${GRID_HEADER_PX + schedule.length * GRID_ROW_PX}px`;
 
   // Encabezados
-  ttGrid.appendChild(makeCell("", "cell time"));
-  for (const d of DAYS) ttGrid.appendChild(makeCell(d, "cell"));
+  ttGrid.appendChild(setGridPosition(makeCell("MÓDULOS", "cell time header-cell"), 1, 1));
+  DAYS.forEach((day, index) => {
+    ttGrid.appendChild(setGridPosition(makeCell(day.label, "cell header-cell"), index + 2, 1));
+  });
 
-  // Filas
-  for (let i = 0; i < totalSlots; i++) {
-    const t = startMin + i * SLOT_MIN;
-    const label = i % 2 === 0 ? minToTime(t) : "";
-    ttGrid.appendChild(makeCell(label, "cell time"));
+  // Filas por módulos institucionales
+  schedule.forEach((module, rowIndex) => {
+    const gridRow = rowIndex + 2;
+    const range = `${module.inicio}–${module.fin}`;
+    const timeClass = module.protegido
+      ? "cell time module-cell protected-time"
+      : "cell time module-cell";
 
-    for (let j = 0; j < DAYS.length; j++) {
-      ttGrid.appendChild(makeCell("", "cell"));
+    ttGrid.appendChild(setGridPosition(makeCell(range, timeClass), 1, gridRow));
+
+    if (module.protegido) {
+      const band = makeCell(module.label || "BLOQUE PROTEGIDO", "protected-band");
+      band.style.gridColumn = "2 / 7";
+      band.style.gridRow = String(gridRow);
+      ttGrid.appendChild(band);
+      return;
     }
-  }
+
+    DAYS.forEach((_, dayIndex) => {
+      ttGrid.appendChild(
+        setGridPosition(makeCell("", "cell module-cell"), dayIndex + 2, gridRow)
+      );
+    });
+  });
 }
 
 // =======================
@@ -325,49 +384,50 @@ function markConflicts(blocks) {
   return out;
 }
 
+function findCoveredModuleRows(startMin, endMin, schedule) {
+  return schedule
+    .map((module, index) => ({
+      ...module,
+      index,
+      inicioMin: toMin(module.inicio),
+      finMin: toMin(module.fin),
+    }))
+    .filter(
+      (module) =>
+        !module.protegido &&
+        overlaps(startMin, endMin, module.inicioMin, module.finMin)
+    );
+}
+
 function renderBlocks() {
   if (!ttGrid) return;
 
   ttGrid.querySelectorAll(".block").forEach((el) => el.remove());
 
-  const startMin = toMin(START);
-  const endMin = toMin(END);
-
-  const allCells = ttGrid.querySelectorAll(".cell");
-  const timeCells = ttGrid.querySelectorAll(".cell.time");
-  const dayCells = ttGrid.querySelectorAll(".cell:not(.time)");
-
-  const firstTimeCell = timeCells[0] || null;
-  const firstBodyDayCell = dayCells[5] || null;
-
-  const rowH =
-    firstBodyDayCell?.getBoundingClientRect().height ||
-    allCells[0]?.getBoundingClientRect().height ||
-    40;
-
-  const timeColW = firstTimeCell?.getBoundingClientRect().width || 64;
-  const dayW =
-    firstBodyDayCell?.getBoundingClientRect().width ||
-    (ttGrid.clientWidth - timeColW) / 5;
-
-  const pad = 6;
+  const schedule = getActiveSchedule();
+  const headerTimeCell = ttGrid.querySelector(".header-cell.time");
+  const moduleColW = headerTimeCell?.getBoundingClientRect().width || 96;
+  const dayW = (ttGrid.clientWidth - moduleColW) / DAYS.length;
+  const padX = 5;
+  const padY = 4;
 
   const blocks = markConflicts(computeFlatBlocks());
 
   for (const b of blocks) {
-    const topMin = clamp(b.inicioMin, startMin, endMin);
-    const botMin = clamp(b.finMin, startMin, endMin);
-    if (botMin <= startMin || topMin >= endMin) continue;
-
-    const dayIndex = DAYS.indexOf(b.dia);
+    const dayIndex = DAYS.findIndex((day) => day.key === b.dia);
     if (dayIndex === -1) continue;
 
-    const topBase = rowH; // 1 fila encabezado
-    const topPx = topBase + ((topMin - startMin) / SLOT_MIN) * rowH;
-    const heightPx = ((botMin - topMin) / SLOT_MIN) * rowH;
+    const coveredRows = findCoveredModuleRows(b.inicioMin, b.finMin, schedule);
+    if (coveredRows.length === 0) continue;
 
-    const leftPx = timeColW + dayIndex * dayW + pad;
-    const widthPx = dayW - pad * 2;
+    const firstRow = coveredRows[0].index;
+    const lastRow = coveredRows[coveredRows.length - 1].index;
+    const rowsSpanned = lastRow - firstRow + 1;
+
+    const topPx = GRID_HEADER_PX + firstRow * GRID_ROW_PX + padY;
+    const heightPx = rowsSpanned * GRID_ROW_PX - padY * 2;
+    const leftPx = moduleColW + dayIndex * dayW + padX;
+    const widthPx = dayW - padX * 2;
 
     const div = document.createElement("div");
     div.className = `block ${b.conflict ? "conflict" : "ok"}`;
@@ -375,12 +435,13 @@ function renderBlocks() {
     div.style.left = `${leftPx}px`;
     div.style.height = `${Math.max(44, heightPx)}px`;
     div.style.width = `${widthPx}px`;
+    div.title = `${b.asignatura} · NRC ${b.nrc} · ${b.profesor} · ${b.dia} ${minToTime(b.inicioMin)}–${minToTime(b.finMin)}`;
 
     div.innerHTML = `
       <strong>${escapeHtml(b.asignatura)}</strong>
-      <div class="meta">NRC ${escapeHtml(b.nrc)} · Sec ${escapeHtml(b.seccion)} · Nivel ${escapeHtml(b.nivel)}</div>
-      <div class="meta">${escapeHtml(b.profesor)}</div>
-      <div class="meta">${escapeHtml(b.dia)} ${minToTime(b.inicioMin)}–${minToTime(b.finMin)}</div>
+      <div class="meta">NRC ${escapeHtml(b.nrc)} · Nivel ${escapeHtml(b.nivel)}</div>
+      <div class="meta professor">${escapeHtml(b.profesor)}</div>
+      <div class="meta">${minToTime(b.inicioMin)}–${minToTime(b.finMin)}</div>
       ${b.conflict ? `<span class="tag">TOPE</span>` : `<span class="tag">OK</span>`}
     `;
 

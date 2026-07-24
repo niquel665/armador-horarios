@@ -19,11 +19,11 @@ body{
   color: var(--text);
 }
 
-.wrap { max-width: 1100px; margin: 0 auto; padding: 18px; }
+.wrap { max-width: 1420px; margin: 0 auto; padding: 18px; }
 header h1 { margin: 10px 0 6px; }
 header p { margin: 0; color: var(--muted); }
 
-.grid2 { display: grid; grid-template-columns: 360px 1fr; gap: 16px; }
+.grid2 { display: grid; grid-template-columns: 340px minmax(0, 1fr); gap: 16px; }
 @media (max-width: 980px) { .grid2 { grid-template-columns: 1fr; } }
 
 .card{
@@ -97,36 +97,81 @@ header p { margin: 0; color: var(--muted); }
 .timetable{
   border: 1px solid var(--line);
   border-radius: 12px;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   background: #fff;
 }
 
 .tt-grid {
   position: relative;
   display: grid;
-  grid-template-columns: 64px repeat(5, 1fr);
-  grid-auto-rows: 40px;
+  grid-template-columns: 100px repeat(5, minmax(138px, 1fr));
+  min-width: 820px;
 }
 
 .cell{
   border-top: 1px solid var(--line);
   border-right: 1px solid var(--line);
-  padding: 8px;
+  padding: 7px;
   font-size: 12px;
   color: var(--muted);
+  min-width: 0;
 }
 .cell.time{
   color: var(--text);
   font-weight: 700;
 }
 
+.header-cell{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#f8fafc;
+  color:var(--text);
+  font-size:12px;
+  font-weight:800;
+  text-align:center;
+  border-top:0;
+}
+
+.module-cell{
+  display:flex;
+  align-items:center;
+}
+
+.cell.time.module-cell{
+  justify-content:center;
+  padding:4px 6px;
+  font-size:11px;
+  white-space:nowrap;
+}
+
+.protected-time,
+.protected-band{
+  background:#111;
+  color:#fff !important;
+  border-color:#111 !important;
+}
+
+.protected-band{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.02em;
+  z-index:1;
+}
+
 .block{
   position:absolute;
   border: 1px solid #d1d5db;
   border-radius: 10px;
-  padding: 8px;
-  font-size: 12px;
-  line-height: 1.15;
+  padding: 6px;
+  font-size: 11px;
+  line-height: 1.12;
+  overflow: hidden;
+  z-index: 3;
   background: #f9fafb;
   color: var(--text);
 }
@@ -134,8 +179,9 @@ header p { margin: 0; color: var(--muted); }
 .block.ok{ background: var(--ok); border-color: rgba(16,185,129,.35); }
 .block.conflict{ background: var(--conflict); border-color: rgba(239,68,68,.45); }
 
-.block strong { display:block; margin-bottom: 4px; }
-.block .meta { opacity: .9; font-size: 11px; }
+.block strong { display:block; margin-bottom: 4px; font-size:11px; line-height:1.08; }
+.block .meta { opacity: .9; font-size: 10px; }
+.block .professor { font-weight: 650; }
 .block .tag {
   margin-top: 6px;
   display: inline-block;
@@ -179,8 +225,9 @@ header p { margin: 0; color: var(--muted); }
     padding: 0 !important;
   }
 
-  /* No imprimir el botón */
-  .printBtn {
+  /* No imprimir los botones */
+  .printBtn,
+  #genPdfBtn {
     display: none !important;
   }
 
@@ -210,6 +257,12 @@ header p { margin: 0; color: var(--muted); }
   #ttGrid .cell:nth-child(-n+6) {
     font-weight: 800 !important;
     color: #000 !important;
+  }
+
+  .protected-time,
+  .protected-band {
+    background: #000 !important;
+    color: #fff !important;
   }
 
   /* Bloques: fondo sólido legible en impresora */
