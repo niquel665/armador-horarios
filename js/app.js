@@ -60,6 +60,23 @@ const selectedList = document.getElementById("selectedList");
 const ttGrid = document.getElementById("ttGrid");
 const clearAllBtn = document.getElementById("clearAll");
 const jornadaSelect = document.getElementById("jornadaSelect");
+const creditTotal = document.getElementById("creditTotal");
+
+function getCourseCredits(course) {
+  const credits = Number(course?.creditos ?? 0);
+  return Number.isFinite(credits) ? credits : 0;
+}
+
+function renderCreditTotal() {
+  if (!creditTotal) return;
+
+  const total = selected.reduce(
+    (sum, course) => sum + getCourseCredits(course),
+    0
+  );
+
+  creditTotal.textContent = total;
+}
 
 // =======================
 // ELEMENTOS DOM - ALUMNO
@@ -319,6 +336,8 @@ function buildGrid() {
 // =======================
 function renderAll() {
   renderSelectedList();
+  renderBlocks();
+  renderCreditTotal();
   renderBlocks();
 }
 
