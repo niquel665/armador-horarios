@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Armador de Horario</title>
-  <link rel="stylesheet" href="css/styles.css?v=4">
+  <link rel="stylesheet" href="css/styles.css?v=5">
 </head>
 <body>
   <header class="wrap">
@@ -59,6 +59,12 @@
       <div class="divider"></div>
 
       <h3>Seleccionados</h3>
+
+      <div id="creditCounter" class="credit-counter" aria-live="polite">
+        <span>Créditos seleccionados</span>
+        <strong id="creditTotal">0</strong>
+      </div>
+
       <ul id="selectedList" class="list"></ul>
 
       <button id="clearAll" class="btn ghost full">Limpiar todo</button>
@@ -86,6 +92,6 @@
     <input type="hidden" name="payload" id="pdfPayload">
   </form>
 
-  <script src="js/app.js?v=4"></script>
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>

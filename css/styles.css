@@ -290,3 +290,33 @@ header p { margin: 0; color: var(--muted); }
   background: #fff;
 }
 .muted{ color: var(--muted); font-size: 13px; }
+
+
+.credit-counter{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin:0 0 12px;
+  padding:11px 12px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:#f8fafc;
+  color:var(--text);
+}
+
+.credit-counter span{
+  font-size:13px;
+  font-weight:650;
+}
+
+.credit-counter strong{
+  min-width:42px;
+  padding:5px 10px;
+  border-radius:999px;
+  background:var(--brand);
+  color:#fff;
+  font-size:16px;
+  line-height:1;
+  text-align:center;
+}

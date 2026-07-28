@@ -8,6 +8,7 @@
     "nivel": "2",
     "asignatura": "ARGUMENTACIÓN JURÍDICA Y DEBATE",
     "nrc": "13029",
+    "creditos": 4,
     "seccion": "1",
     "profesor": "Jorge Ríos Vásquez",
     "horarios": [
@@ -32,6 +33,7 @@
     "nivel": "2",
     "asignatura": "HISTORIA INSTITUCIONAL DE CHILE",
     "nrc": "13005",
+    "creditos": 5,
     "seccion": "1",
     "profesor": "Fernando Pérez Godoy",
     "horarios": [
@@ -56,6 +58,7 @@
     "nivel": "2",
     "asignatura": "TEORÍA DE LA LEY Y LAS PERSONAS",
     "nrc": "13017",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Oscar Olivares Jatib",
     "horarios": [
@@ -87,6 +90,7 @@
     "nivel": "2",
     "asignatura": "FUNDAMENTOS FILOSÓFICOS DEL DERECHO",
     "nrc": "13011",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Fernando Pérez Godoy",
     "horarios": [
@@ -111,6 +115,7 @@
     "nivel": "2",
     "asignatura": "TEORÍA CONSTITUCIONAL",
     "nrc": "13023",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Andrea Íñiguez",
     "horarios": [
@@ -135,6 +140,7 @@
     "nivel": "2",
     "asignatura": "FG: ELECTIVO DE COMUNICACIÓN - COMUNICACIÓN Y ARGUMENTACIÓN",
     "nrc": "22465",
+    "creditos": 3,
     "seccion": "1",
     "profesor": "No informado",
     "horarios": [
@@ -160,6 +166,7 @@
     "nivel": "2",
     "asignatura": "TEORÍA DE LA LEY Y LAS PERSONAS",
     "nrc": "13019",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Oscar Olivares Jatib",
     "horarios": [
@@ -185,6 +192,7 @@
     "asignatura": "HISTORIA INSTITUCIONAL DE CHILE",
     "nrc": "13007",
     "seccion": "2",
+    "creditos": 5,
     "profesor": "Fernando Pérez Godoy",
     "horarios": [
       {
@@ -208,6 +216,7 @@
     "nivel": "1",
     "asignatura": "DERECHO POLÍTICO",
     "nrc": "23009",
+    "creditos": 5,
     "seccion": "1",
     "profesor": "Pamela Noseda",
     "horarios": [
@@ -232,6 +241,7 @@
     "nivel": "2",
     "asignatura": "FUNDAMENTOS FILOSÓFICOS DEL DERECHO",
     "nrc": "13013",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Fernando Pérez Godoy",
     "horarios": [
@@ -256,6 +266,7 @@
     "nivel": "2",
     "asignatura": "TEORÍA CONSTITUCIONAL",
     "nrc": "13026",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Andrea Íñiguez",
     "horarios": [
@@ -280,6 +291,7 @@
     "nivel": "2",
     "asignatura": "ARGUMENTACIÓN JURÍDICA Y DEBATE",
     "nrc": "13030",
+    "creditos": 4,
     "seccion": "2",
     "profesor": "Juan Carlos Bussenius",
     "horarios": [
@@ -304,6 +316,7 @@
     "nivel": "2",
     "asignatura": "FG: ELECTIVO DE COMUNICACIÓN - COMUNICACIÓN Y ARGUMENTACIÓN",
     "nrc": "22466",
+    "creditos": 3,
     "seccion": "2",
     "profesor": "No informado",
     "horarios": [
@@ -329,6 +342,7 @@
     "nivel": "2",
     "asignatura": "HISTORIA INSTITUCIONAL DE CHILE",
     "nrc": "13009",
+    "creditos": 5,
     "seccion": "3",
     "profesor": "Oscar Dávila Campusano",
     "horarios": [
@@ -353,6 +367,7 @@
     "nivel": "2",
     "asignatura": "TEORÍA CONSTITUCIONAL",
     "nrc": "13027",
+    "creditos": 6,
     "seccion": "3",
     "profesor": "Andrea Íñiguez",
     "horarios": [
@@ -377,6 +392,7 @@
     "nivel": "2",
     "asignatura": "FUNDAMENTOS FILOSÓFICOS DEL DERECHO",
     "nrc": "13015",
+    "creditos": 6,
     "seccion": "3",
     "profesor": "Fernando Pérez Godoy",
     "horarios": [
@@ -401,6 +417,7 @@
     "nivel": "2",
     "asignatura": "TEORÍA DE LA LEY Y LAS PERSONAS",
     "nrc": "13021",
+    "creditos": 6,
     "seccion": "3",
     "profesor": "Silvana del Valle Bustos",
     "horarios": [
@@ -425,6 +442,7 @@
     "nivel": "2",
     "asignatura": "ARGUMENTACIÓN JURÍDICA Y DEBATE",
     "nrc": "13031",
+    "creditos": 4,
     "seccion": "3",
     "profesor": "Fernando Hidalgo Araya",
     "horarios": [
@@ -449,6 +467,7 @@
     "nivel": "2",
     "asignatura": "FG: ELECTIVO DE COMUNICACIÓN - COMUNICACIÓN Y ARGUMENTACIÓN",
     "nrc": "22467",
+    "creditos": 3,
     "seccion": "3",
     "profesor": "No informado",
     "horarios": [
@@ -474,6 +493,7 @@
     "nivel": "4",
     "asignatura": "DERECHO Y GARANTÍAS CONSTITUCIONALES",
     "nrc": "13038",
+    "creditos": 5,
     "seccion": "1",
     "profesor": "Mauricio León Cáceres",
     "horarios": [
@@ -498,6 +518,7 @@
     "nivel": "4",
     "asignatura": "DERECHO INTERNACIONAL PÚBLICO",
     "nrc": "13041",
+    "creditos": 4,
     "seccion": "1",
     "profesor": "Pamela Noseda",
     "horarios": [
@@ -522,6 +543,7 @@
     "nivel": "4",
     "asignatura": "TEORÍA DE LA REACCIÓN PENAL",
     "nrc": "13044",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Nelly Salvo",
     "horarios": [
@@ -546,6 +568,7 @@
     "nivel": "4",
     "asignatura": "TALLER DE INTEGRACIÓN I",
     "nrc": "13047",
+    "creditos": 3,
     "seccion": "1",
     "profesor": "Pablo Ulloa y Silvana del Valle",
     "horarios": [
@@ -570,6 +593,7 @@
     "nivel": "4",
     "asignatura": "TEORÍA DEL PROCESO",
     "nrc": "13035",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Roberto Rabi",
     "horarios": [
@@ -601,6 +625,7 @@
     "nivel": "3",
     "asignatura": "ORGANIZACIÓN Y ATRIBUCIÓN DE LOS TRIBUNALES",
     "nrc": "23023",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Pamela Noseda",
     "horarios": [
@@ -625,6 +650,7 @@
     "nivel": "4",
     "asignatura": "BIENES",
     "nrc": "13032",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Rodrigo Barría",
     "horarios": [
@@ -656,6 +682,7 @@
     "nivel": "4",
     "asignatura": "TEORÍA DEL PROCESO",
     "nrc": "13036",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Bryan Precht",
     "horarios": [
@@ -687,6 +714,7 @@
     "nivel": "4",
     "asignatura": "BIENES",
     "nrc": "13033",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Pablo Ulloa",
     "horarios": [
@@ -718,6 +746,7 @@
     "nivel": "4",
     "asignatura": "TALLER DE INTEGRACIÓN I",
     "nrc": "13048",
+    "creditos": 3,
     "seccion": "2",
     "profesor": "Bryan Precht y Andrea Cabrolier",
     "horarios": [
@@ -742,6 +771,7 @@
     "nivel": "4",
     "asignatura": "DERECHO INTERNACIONAL PÚBLICO",
     "nrc": "13042",
+    "creditos": 4,
     "seccion": "2",
     "profesor": "Rodrigo Cortés",
     "horarios": [
@@ -766,6 +796,7 @@
     "nivel": "4",
     "asignatura": "TEORÍA DE LA REACCIÓN PENAL",
     "nrc": "13045",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Nelly Salvo",
     "horarios": [
@@ -790,6 +821,7 @@
     "nivel": "4",
     "asignatura": "DERECHO Y GARANTÍAS CONSTITUCIONALES",
     "nrc": "13039",
+    "creditos": 5,
     "seccion": "2",
     "profesor": "Mauricio León Cáceres",
     "horarios": [
@@ -814,6 +846,7 @@
     "nivel": "4",
     "asignatura": "BIENES",
     "nrc": "13034",
+    "creditos": 6,
     "seccion": "3",
     "profesor": "Pablo Ulloa",
     "horarios": [
@@ -845,6 +878,7 @@
     "nivel": "4",
     "asignatura": "DERECHO Y GARANTÍAS CONSTITUCIONALES",
     "nrc": "13040",
+    "creditos": 5,
     "seccion": "3",
     "profesor": "Mauricio León Cáceres",
     "horarios": [
@@ -869,6 +903,7 @@
     "nivel": "4",
     "asignatura": "TEORÍA DE LA REACCIÓN PENAL",
     "nrc": "13046",
+    "creditos": 6,
     "seccion": "3",
     "profesor": "Javier Castro",
     "horarios": [
@@ -893,6 +928,7 @@
     "nivel": "4",
     "asignatura": "TALLER DE INTEGRACIÓN I",
     "nrc": "13049",
+    "creditos": 3,
     "seccion": "3",
     "profesor": "Claudia Cortés y Rodrigo Peña",
     "horarios": [
@@ -917,6 +953,7 @@
     "nivel": "4",
     "asignatura": "DERECHO INTERNACIONAL PÚBLICO",
     "nrc": "13043",
+    "creditos": 4,
     "seccion": "3",
     "profesor": "Rodrigo Cortés",
     "horarios": [
@@ -941,6 +978,7 @@
     "nivel": "4",
     "asignatura": "TEORÍA DEL PROCESO",
     "nrc": "13037",
+    "creditos": 6,
     "seccion": "3",
     "profesor": "Rodrigo Peña",
     "horarios": [
@@ -972,6 +1010,7 @@
     "nivel": "3",
     "asignatura": "ACTO JURÍDICO",
     "nrc": "23019",
+    "creditos": 6,
     "seccion": "4",
     "profesor": "Jorge Sepúlveda",
     "horarios": [
@@ -1003,6 +1042,7 @@
     "nivel": "4",
     "asignatura": "TALLER DE INTEGRACIÓN I",
     "nrc": "13050",
+    "creditos": 3,
     "seccion": "4",
     "profesor": "Javier Ravest y José Manuel Urrejola",
     "horarios": [
@@ -1027,6 +1067,7 @@
     "nivel": "6",
     "asignatura": "DERECHO COLECTIVO DEL TRABAJO",
     "nrc": "13060",
+    "creditos": 5,
     "seccion": "1",
     "profesor": "Oscar Olivares",
     "horarios": [
@@ -1051,6 +1092,7 @@
     "nivel": "6",
     "asignatura": "DERECHO MERCANTIL",
     "nrc": "13057",
+    "creditos": 5,
     "seccion": "1",
     "profesor": "Jaime Benavente",
     "horarios": [
@@ -1075,6 +1117,7 @@
     "nivel": "6",
     "asignatura": "TEORÍA DE LAS OBLIGACIONES",
     "nrc": "23024",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Luis Bustamante",
     "horarios": [
@@ -1106,6 +1149,7 @@
     "nivel": "6",
     "asignatura": "FUENTES DE LAS OBLIGACIONES",
     "nrc": "13051",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Rodrigo Barría",
     "horarios": [
@@ -1137,6 +1181,7 @@
     "nivel": "6",
     "asignatura": "PROCEDIMIENTOS DE EJECUCIÓN Y CAUTELA",
     "nrc": "13054",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Ángela Composto",
     "horarios": [
@@ -1168,6 +1213,7 @@
     "nivel": "5",
     "asignatura": "PROCEDIMIENTOS CIVILES DE COGNICIÓN",
     "nrc": "23026",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Fernando Hidalgo",
     "horarios": [
@@ -1199,6 +1245,7 @@
     "nivel": "6",
     "asignatura": "FG: ELECTIVO DE RESPONSABILIDAD SOCIAL",
     "nrc": "22538",
+    "creditos": 3,
     "seccion": "1",
     "profesor": "No informado",
     "horarios": [
@@ -1224,6 +1271,7 @@
     "nivel": "6",
     "asignatura": "DELITOS EN PARTICULAR II",
     "nrc": "13063",
+    "creditos": 5,
     "seccion": "1",
     "profesor": "Nelly Salvo",
     "horarios": [
@@ -1255,6 +1303,7 @@
     "nivel": "6",
     "asignatura": "DERECHO COLECTIVO DEL TRABAJO",
     "nrc": "13061",
+    "creditos": 5,
     "seccion": "2",
     "profesor": "Oscar Olivares",
     "horarios": [
@@ -1286,6 +1335,7 @@
     "nivel": "6",
     "asignatura": "PROCEDIMIENTOS DE EJECUCIÓN Y CAUTELA",
     "nrc": "13055",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Ángela Composto",
     "horarios": [
@@ -1317,6 +1367,7 @@
     "nivel": "6",
     "asignatura": "DERECHO MERCANTIL",
     "nrc": "13058",
+    "creditos": 5,
     "seccion": "2",
     "profesor": "Pablo Díaz",
     "horarios": [
@@ -1341,6 +1392,7 @@
     "nivel": "6",
     "asignatura": "FUENTES DE LAS OBLIGACIONES",
     "nrc": "13052",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Rodrigo Barría",
     "horarios": [
@@ -1372,6 +1424,7 @@
     "nivel": "6",
     "asignatura": "FG: ELECTIVO DE RESPONSABILIDAD SOCIAL",
     "nrc": "22536",
+    "creditos": 3,
     "seccion": "2",
     "profesor": "No informado",
     "horarios": [
@@ -1397,6 +1450,7 @@
     "nivel": "6",
     "asignatura": "DELITOS EN PARTICULAR II",
     "nrc": "13064",
+    "creditos": 5,
     "seccion": "2",
     "profesor": "Javier Castro",
     "horarios": [
@@ -1428,6 +1482,7 @@
     "nivel": "7",
     "asignatura": "RESPONSABILIDAD CIVIL",
     "nrc": "23028",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Andrés López",
     "horarios": [
@@ -1452,6 +1507,7 @@
     "nivel": "8",
     "asignatura": "DERECHO ADMINISTRATIVO II",
     "nrc": "13076",
+    "creditos": 5,
     "seccion": "1",
     "profesor": "Álvaro Delgado Lara",
     "horarios": [
@@ -1476,6 +1532,7 @@
     "nivel": "8",
     "asignatura": "CONTRATACIÓN MERCANTIL",
     "nrc": "13074",
+    "creditos": 4,
     "seccion": "1",
     "profesor": "Pablo Díaz",
     "horarios": [
@@ -1500,6 +1557,7 @@
     "nivel": "8",
     "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES LAB 1",
     "nrc": "13069",
+    "creditos": 0,
     "seccion": "1",
     "profesor": "Fernando Hidalgo",
     "horarios": [
@@ -1525,6 +1583,7 @@
     "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES TEORÍA",
     "nrc": "13068",
     "seccion": "1",
+    "creditos": 4,
     "profesor": "Fernando Hidalgo",
     "horarios": [
       {
@@ -1548,6 +1607,7 @@
     "nivel": "8",
     "asignatura": "TALLER DE INTEGRACIÓN II",
     "nrc": "13080",
+    "creditos": 5,
     "seccion": "1",
     "profesor": "Pablo Ulloa y Ángela Composto",
     "horarios": [
@@ -1570,8 +1630,9 @@
     "carrera": "Derecho",
     "anio": "4",
     "nivel": "8",
-    "asignatura": "DERECHO TRIBUTARIO II",
+    "asignatura": "DERECHO TRIBUTARIO I",
     "nrc": "13078",
+    "creditos": 4,
     "seccion": "1",
     "profesor": "Rodrigo Cortés",
     "horarios": [
@@ -1596,6 +1657,7 @@
     "nivel": "8",
     "asignatura": "DERECHO SUCESORIO",
     "nrc": "13066",
+    "creditos": 6,
     "seccion": "1",
     "profesor": "Luis Bustamante Robin",
     "horarios": [
@@ -1620,6 +1682,7 @@
     "nivel": "8",
     "asignatura": "OPTATIVO DE ESPECIALIZACIÓN I",
     "nrc": "13086",
+    "creditos": 2,
     "seccion": "1",
     "profesor": "Jorge Sepúlveda",
     "horarios": [
@@ -1644,6 +1707,7 @@
     "nivel": "8",
     "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES LAB 2",
     "nrc": "13070",
+    "creditos": 0,
     "seccion": "1",
     "profesor": "Fernando Hidalgo",
     "horarios": [
@@ -1668,6 +1732,7 @@
     "nivel": "8",
     "asignatura": "CONTRATACIÓN MERCANTIL",
     "nrc": "13075",
+    "creditos": 4,
     "seccion": "2",
     "profesor": "Jaime Benavente",
     "horarios": [
@@ -1692,6 +1757,7 @@
     "nivel": "8",
     "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES LAB 1",
     "nrc": "13072",
+    "creditos": 4,
     "seccion": "2",
     "profesor": "Ángela Composto",
     "horarios": [
@@ -1716,6 +1782,7 @@
     "nivel": "8",
     "asignatura": "DERECHO ADMINISTRATIVO II",
     "nrc": "13077",
+    "creditos": 5,
     "seccion": "2",
     "profesor": "Álvaro Delgado Lara",
     "horarios": [
@@ -1740,6 +1807,7 @@
     "nivel": "8",
     "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES TEORÍA",
     "nrc": "13071",
+    "creditos": 4,
     "seccion": "2",
     "profesor": "Ángela Composto",
     "horarios": [
@@ -1764,6 +1832,7 @@
     "nivel": "8",
     "asignatura": "TALLER DE INTEGRACIÓN II",
     "nrc": "13082",
+    "creditos": 5,
     "seccion": "2",
     "profesor": "Claudia Cortés y Rodrigo Peña",
     "horarios": [
@@ -1786,8 +1855,9 @@
     "carrera": "Derecho",
     "anio": "4",
     "nivel": "8",
-    "asignatura": "DERECHO TRIBUTARIO II",
+    "asignatura": "DERECHO TRIBUTARIO I",
     "nrc": "13079",
+    "creditos": 4,
     "seccion": "2",
     "profesor": "Eduardo Guerrero",
     "horarios": [
@@ -1812,6 +1882,7 @@
     "nivel": "8",
     "asignatura": "DERECHO SUCESORIO",
     "nrc": "13067",
+    "creditos": 6,
     "seccion": "2",
     "profesor": "Andrea Cabrolier",
     "horarios": [
@@ -1836,6 +1907,7 @@
     "nivel": "8",
     "asignatura": "OPTATIVO DE ESPECIALIZACIÓN I",
     "nrc": "13087",
+    "creditos": 2,
     "seccion": "2",
     "profesor": "Claudia Apsé",
     "horarios": [
@@ -1860,6 +1932,7 @@
     "nivel": "8",
     "asignatura": "PROCEDIMIENTOS ESPECIALES ORALES LAB 2",
     "nrc": "13073",
+    "creditos": 0,
     "seccion": "2",
     "profesor": "Ángela Composto",
     "horarios": [
@@ -1884,6 +1957,7 @@
     "nivel": "8",
     "asignatura": "TALLER DE INTEGRACIÓN II",
     "nrc": "13084",
+    "creditos": 5,
     "seccion": "3",
     "profesor": "Bryan Precht y Andrea Cabrolier",
     "horarios": [
@@ -1908,6 +1982,7 @@
     "nivel": "10",
     "asignatura": "TALLER DE INTEGRACIÓN III",
     "nrc": "13091",
+    "creditos": 30,
     "seccion": "1",
     "profesor": "Pamela Cisternas y Alejandro Álvarez",
     "horarios": [
@@ -1960,6 +2035,7 @@
     "nivel": "10",
     "asignatura": "TALLER DE INTEGRACIÓN III",
     "nrc": "13092",
+    "creditos": 30,
     "seccion": "2",
     "profesor": "Pablo Cruz y Fernando Sciolla",
     "horarios": [
@@ -2012,6 +2088,7 @@
     "nivel": "10",
     "asignatura": "CLÍNICA JURÍDICA",
     "nrc": null,
+    "creditos": 7,
     "seccion": "1",
     "profesor": "Christian Toro",
     "horarios": [
@@ -2044,6 +2121,7 @@
     "nivel": "10",
     "asignatura": "CLÍNICA JURÍDICA",
     "nrc": null,
+    "creditos": 7,
     "seccion": "2",
     "profesor": "Miryam Hernández",
     "horarios": [
@@ -2076,6 +2154,7 @@
     "nivel": "10",
     "asignatura": "CLÍNICA JURÍDICA",
     "nrc": null,
+    "creditos": 7,
     "seccion": "3",
     "profesor": "Luis Leal",
     "horarios": [
@@ -2108,6 +2187,7 @@
     "nivel": null,
     "asignatura": "ÉTICA E IA",
     "nrc": "12626",
+    "creditos": 3,
     "seccion": null,
     "profesor": "Ignacio Peña Caroca",
     "horarios": [
@@ -2133,6 +2213,7 @@
     "nivel": null,
     "asignatura": "DISEÑO DE APLICACIONES EN IA",
     "nrc": "16627",
+    "creditos": 3,
     "seccion": null,
     "profesor": "Felipe Besnier Díaz",
     "horarios": [
@@ -2158,6 +2239,7 @@
     "nivel": null,
     "asignatura": "CIBERSEGURIDAD",
     "nrc": "13628",
+    "creditos": 4,
     "seccion": null,
     "profesor": "Felipe Osorio Umaña",
     "horarios": [
@@ -2183,6 +2265,7 @@
     "nivel": null,
     "asignatura": "PROTECCIÓN DE DATOS PERSONALES",
     "nrc": "13630",
+    "creditos": 4,
     "seccion": null,
     "profesor": "Sebastián Bozzo Hauri",
     "horarios": [
