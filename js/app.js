@@ -202,7 +202,7 @@ function applyJornadaFilter() {
 // =======================
 async function loadCatalog() {
   try {
-    const res = await fetch("data/courses.json?v=4", { cache: "no-store" });
+    const res = await fetch("data/courses.json?v=6", { cache: "no-store" });
     if (!res.ok) throw new Error(`No pude cargar courses.json (${res.status})`);
 
     allCourses = await res.json();
