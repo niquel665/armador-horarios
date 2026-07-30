@@ -379,6 +379,8 @@ function computeFlatBlocks() {
         nivel: sec.nivel,
         seccion: sec.seccion,
         dia: h.dia,
+        edificio: h.edificio ?? "",
+        sala: h.sala ?? "",
         inicioMin: toMin(h.inicio),
         finMin: toMin(h.fin),
       });
