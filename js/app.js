@@ -461,6 +461,7 @@ function renderBlocks() {
       <div class="meta">NRC ${escapeHtml(b.nrc)} · Nivel ${escapeHtml(b.nivel)}</div>
       <div class="meta professor">${escapeHtml(b.profesor)}</div>
       <div class="meta">${minToTime(b.inicioMin)}–${minToTime(b.finMin)}</div>
+      <strong>Sala ${escapeHtml(b.edificio)} ${escapeHtml(b.sala)}</strong>
       ${b.conflict ? `<span class="tag">TOPE</span>` : `<span class="tag">OK</span>`}
     `;
 
